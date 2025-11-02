@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Github, Linkedin, Mail, Phone } from 'lucide-react';
+import profilePhoto from '@/assets/profile-photo.jpeg';
 
 const Hero = () => {
   return (
@@ -49,7 +50,7 @@ const Hero = () => {
             {/* Social Links */}
             <div className="flex space-x-6">
               <a
-                href="https://github.com/pallasivaisai"
+                href="https://github.com/pallasivasai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
@@ -57,7 +58,7 @@ const Hero = () => {
                 <Github size={28} />
               </a>
               <a
-                href="https://linkedin.com/in/palla-siva-sai"
+                href="https://www.linkedin.com/in/p-siva-sai-10686417a/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
@@ -65,16 +66,12 @@ const Hero = () => {
                 <Linkedin size={28} />
               </a>
               <a
-                href="mailto:pallasivaisai@example.com"
+                href="https://www.skills.google/public_profiles/79b60659-bb15-42dd-852a-9ba427a0158c"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
               >
                 <Mail size={28} />
-              </a>
-              <a
-                href="tel:+91XXXXXXXXXX"
-                className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
-              >
-                <Phone size={28} />
               </a>
             </div>
           </div>
@@ -84,24 +81,26 @@ const Hero = () => {
             <div className="relative">
               {/* Profile image with circular mask */}
               <div className="w-80 h-80 lg:w-96 lg:h-96 mx-auto relative">
-                <div className="w-full h-full rounded-full border-4 border-white/30 shadow-2xl bg-gradient-to-br from-orange-400 to-purple-600 flex items-center justify-center text-white text-8xl font-bold">
-                  PSS
-                </div>
+                <img 
+                  src={profilePhoto} 
+                  alt="PALLA SIVA SAI" 
+                  className="w-full h-full rounded-full border-4 border-white/30 shadow-2xl object-cover"
+                />
                 <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-transparent via-white/10 to-white/20"></div>
               </div>
               
               {/* Floating stats */}
               <div className="absolute -top-4 -right-4 bg-white rounded-2xl p-4 shadow-lg animate-bounce">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-purple-600">8.6+</div>
-                  <div className="text-sm text-gray-600">CGPA</div>
+                  <div className="text-2xl font-bold text-purple-600">7.02</div>
+                  <div className="text-sm text-gray-600">GPA</div>
                 </div>
               </div>
               
               <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl p-4 shadow-lg animate-pulse">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-orange-500">3+</div>
-                  <div className="text-sm text-gray-600">Projects</div>
+                  <div className="text-2xl font-bold text-orange-500">B.Sc</div>
+                  <div className="text-sm text-gray-600">CS Graduate</div>
                 </div>
               </div>
             </div>

@@ -1,5 +1,6 @@
 
 import React from 'react';
+import profilePhoto from '@/assets/profile-photo.jpeg';
 
 const About = () => {
   return (
@@ -16,9 +17,11 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Profile Image */}
             <div className="relative">
-              <div className="w-80 h-80 bg-gradient-to-br from-orange-400 to-purple-600 rounded-2xl mx-auto flex items-center justify-center text-white text-6xl font-bold shadow-2xl">
-                PSS
-              </div>
+              <img 
+                src={profilePhoto} 
+                alt="PALLA SIVA SAI" 
+                className="w-80 h-80 rounded-2xl mx-auto object-cover shadow-2xl"
+              />
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-yellow-400 rounded-full opacity-20"></div>
               <div className="absolute -top-6 -left-6 w-24 h-24 bg-blue-400 rounded-full opacity-20"></div>
             </div>
@@ -47,12 +50,12 @@ const About = () => {
               {/* Quick Stats */}
               <div className="grid grid-cols-2 gap-4 mt-8">
                 <div className="bg-gradient-to-r from-orange-500 to-purple-600 rounded-xl p-4 text-white text-center">
-                  <div className="text-2xl font-bold">MCA</div>
-                  <div className="text-sm">Current Degree</div>
+                  <div className="text-2xl font-bold">B.Sc CS</div>
+                  <div className="text-sm">Degree</div>
                 </div>
                 <div className="bg-gradient-to-r from-blue-500 to-green-500 rounded-xl p-4 text-white text-center">
-                  <div className="text-2xl font-bold">2025</div>
-                  <div className="text-sm">Graduation Year</div>
+                  <div className="text-2xl font-bold">7.02</div>
+                  <div className="text-sm">GPA</div>
                 </div>
               </div>
             </div>

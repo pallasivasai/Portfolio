@@ -20,7 +20,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/pallasivaisai"
+                href="https://github.com/pallasivasai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
@@ -28,7 +28,7 @@ const Footer = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com/in/palla-siva-sai"
+                href="https://www.linkedin.com/in/p-siva-sai-10686417a/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
@@ -36,16 +36,12 @@ const Footer = () => {
                 <Linkedin size={24} />
               </a>
               <a
-                href="mailto:pallasivaisai@example.com"
+                href="https://www.skills.google/public_profiles/79b60659-bb15-42dd-852a-9ba427a0158c"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
               >
                 <Mail size={24} />
-              </a>
-              <a
-                href="tel:+91XXXXXXXXXX"
-                className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
-              >
-                <Phone size={24} />
               </a>
             </div>
           </div>
@@ -78,21 +74,25 @@ const Footer = () => {
             <h3 className="text-xl font-semibold">Get In Touch</h3>
             <div className="space-y-3">
               <div className="flex items-center gap-3">
-                <Mail size={18} className="text-orange-500" />
+                <Github size={18} className="text-orange-500" />
                 <a
-                  href="mailto:pallasivaisai@example.com"
+                  href="https://github.com/pallasivasai"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors duration-200"
                 >
-                  pallasivaisai@example.com
+                  github.com/pallasivasai
                 </a>
               </div>
               <div className="flex items-center gap-3">
-                <Phone size={18} className="text-orange-500" />
+                <Linkedin size={18} className="text-orange-500" />
                 <a
-                  href="tel:+91XXXXXXXXXX"
+                  href="https://www.linkedin.com/in/p-siva-sai-10686417a/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors duration-200"
                 >
-                  +91 XXXXXXXXXX
+                  LinkedIn Profile
                 </a>
               </div>
             </div>

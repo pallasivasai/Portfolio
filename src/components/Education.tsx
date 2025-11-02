@@ -4,36 +4,20 @@ import React from 'react';
 const Education = () => {
   const educationData = [
     {
-      degree: "MCA (Master of Computer Applications)",
-      institution: "KL University, Vaddeswaram",
-      year: "2025",
-      cgpa: "8.62 CGPA",
-      status: "Current",
+      degree: "B.Sc (Computer Science)",
+      institution: "Chaithanya Bharathi Degree College",
+      year: "Completed",
+      cgpa: "7.02 GPA",
+      status: "Completed",
       color: "from-purple-500 to-blue-600"
     },
     {
-      degree: "B.VOC (Web Technology & Software Development)",
-      institution: "JKC College, Guntur",
-      year: "2023",
-      cgpa: "7.19 CGPA",
+      degree: "SSC (Secondary School Certificate)",
+      institution: "B ZP High School",
+      year: "Completed",
+      cgpa: "",
       status: "Completed",
       color: "from-orange-500 to-red-500"
-    },
-    {
-      degree: "Intermediate (MPC)",
-      institution: "NRI Junior College, Guntur",
-      year: "2020",
-      cgpa: "6.49 CGPA",
-      status: "Completed",
-      color: "from-green-500 to-teal-500"
-    },
-    {
-      degree: "10th Standard",
-      institution: "OXFORD School, Guntur",
-      year: "2018",
-      cgpa: "7.8 CGPA",
-      status: "Completed",
-      color: "from-yellow-500 to-orange-500"
     }
   ];
 
@@ -80,11 +64,13 @@ const Education = () => {
                       </p>
                       
                       <div className="flex flex-col sm:flex-row sm:items-center gap-4">
-                        <div className={`inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r ${edu.color} text-white font-semibold`}>
-                          {edu.cgpa}
-                        </div>
+                        {edu.cgpa && (
+                          <div className={`inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r ${edu.color} text-white font-semibold`}>
+                            {edu.cgpa}
+                          </div>
+                        )}
                         <div className="text-gray-500 font-medium">
-                          Year: {edu.year}
+                          {edu.year}
                         </div>
                       </div>
                     </div>
