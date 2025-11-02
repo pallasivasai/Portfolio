@@ -18,24 +18,22 @@ const Navigation = () => {
   const handleDownloadResume = () => {
     // Create a simple text resume for demo purposes
     const resumeContent = `
-UNNAVA JOTHI SAI
+PALLA SIVA SAI
 Aspiring Software Developer | Web Development Enthusiast
 
 CONTACT:
-Email: saiunnava61744@gmail.com
-Phone: 8374067723
-LinkedIn: linkedin.com/in/unnava-jothi-sai-0330102b1
-GitHub: github.com/saiunnava01
+Email: pallasivaisai@example.com
+Phone: +91 XXXXXXXXXX
+LinkedIn: linkedin.com/in/palla-siva-sai
+GitHub: github.com/pallasivaisai
 
 EDUCATION:
-MCA – KL University, Vaddeswaram (2025) – 8.62 CGPA
-B.VOC (Web Technology & Software Development) – JKC College, Guntur (2023) – 7.19 CGPA
-Intermediate (MPC) – NRI Junior College, Guntur (2020) – 6.49 CGPA
-10th Standard – OXFORD School, Guntur (2018) – 7.8 CGPA
+MCA – University Name (2025) – 8.5+ CGPA
+B.Tech/B.VOC – College Name (2023) – 7.0+ CGPA
 
 SKILLS:
 Languages & Technologies: HTML, CSS, JavaScript, PHP, Java, Python, SQL, DBMS
-Areas of Expertise: Web development
+Areas of Expertise: Web development, Full-stack development
 
 PROJECTS:
 E-Learning Management System (E-LMS)
@@ -47,7 +45,7 @@ E-Learning Management System (E-LMS)
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'UNNAVA_JOTHI_SAI_Resume.txt';
+    a.download = 'PALLA_SIVA_SAI_Resume.txt';
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -59,7 +57,7 @@ E-Learning Management System (E-LMS)
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="text-2xl font-bold text-gray-800">
-            JS<span className="text-orange-500">.</span>
+            PSS<span className="text-orange-500">.</span>
           </div>
           
           {/* Desktop Navigation */}

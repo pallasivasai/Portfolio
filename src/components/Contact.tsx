@@ -45,7 +45,7 @@ const Contact = () => {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
-          to_email: 'saiunnava61744@gmail.com', // Your email
+          to_email: 'pallasivaisai@example.com', // Your email
         }
       );
 
@@ -82,29 +82,29 @@ const Contact = () => {
     {
       icon: <Mail size={24} />,
       label: "Email",
-      value: "saiunnava61744@gmail.com",
-      link: "mailto:saiunnava61744@gmail.com",
+      value: "pallasivaisai@example.com",
+      link: "mailto:pallasivaisai@example.com",
       color: "from-blue-500 to-purple-600"
     },
     {
       icon: <Phone size={24} />,
       label: "Phone",
-      value: "+91 8374067723",
-      link: "tel:8374067723",
+      value: "+91 XXXXXXXXXX",
+      link: "tel:+91XXXXXXXXXX",
       color: "from-green-500 to-blue-500"
     },
     {
       icon: <Github size={24} />,
       label: "GitHub",
-      value: "github.com/saiunnava01",
-      link: "https://github.com/saiunnava01",
+      value: "github.com/pallasivaisai",
+      link: "https://github.com/pallasivaisai",
       color: "from-gray-700 to-gray-900"
     },
     {
       icon: <Linkedin size={24} />,
       label: "LinkedIn",
-      value: "unnava-jothi-sai",
-      link: "https://linkedin.com/in/unnava-jothi-sai-0330102b1",
+      value: "palla-siva-sai",
+      link: "https://linkedin.com/in/palla-siva-sai",
       color: "from-blue-600 to-blue-800"
     }
   ];

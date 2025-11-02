@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="space-y-4">
             <div className="text-3xl font-bold">
-              UNNAVA JOTHI SAI<span className="text-orange-500">.</span>
+              PALLA SIVA SAI<span className="text-orange-500">.</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
               Aspiring Software Developer passionate about creating elegant solutions 
@@ -20,7 +20,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/saiunnava01"
+                href="https://github.com/pallasivaisai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
@@ -28,7 +28,7 @@ const Footer = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com/in/unnava-jothi-sai-0330102b1"
+                href="https://linkedin.com/in/palla-siva-sai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
@@ -36,13 +36,13 @@ const Footer = () => {
                 <Linkedin size={24} />
               </a>
               <a
-                href="mailto:saiunnava61744@gmail.com"
+                href="mailto:pallasivaisai@example.com"
                 className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
               >
                 <Mail size={24} />
               </a>
               <a
-                href="tel:8374067723"
+                href="tel:+91XXXXXXXXXX"
                 className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
               >
                 <Phone size={24} />
@@ -80,19 +80,19 @@ const Footer = () => {
               <div className="flex items-center gap-3">
                 <Mail size={18} className="text-orange-500" />
                 <a
-                  href="mailto:saiunnava61744@gmail.com"
+                  href="mailto:pallasivaisai@example.com"
                   className="text-gray-400 hover:text-white transition-colors duration-200"
                 >
-                  saiunnava61744@gmail.com
+                  pallasivaisai@example.com
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={18} className="text-orange-500" />
                 <a
-                  href="tel:8374067723"
+                  href="tel:+91XXXXXXXXXX"
                   className="text-gray-400 hover:text-white transition-colors duration-200"
                 >
-                  +91 8374067723
+                  +91 XXXXXXXXXX
                 </a>
               </div>
             </div>
@@ -110,7 +110,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {currentYear} UNNAVA JOTHI SAI. All rights reserved.
+              © {currentYear} PALLA SIVA SAI. All rights reserved.
             </p>
             <p className="text-gray-400 text-sm mt-4 md:mt-0">
               Designed and developed with ❤️ using React & Tailwind CSS

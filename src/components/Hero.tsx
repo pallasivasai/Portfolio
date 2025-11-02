@@ -20,7 +20,7 @@ const Hero = () => {
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
                 Hello, I'm<br />
-                <span className="text-yellow-300">UNNAVA JOTHI SAI</span><br />
+                <span className="text-yellow-300">PALLA SIVA SAI</span><br />
                 <span className="text-3xl lg:text-4xl font-medium">
                   An Aspiring Software Developer
                 </span>
@@ -49,7 +49,7 @@ const Hero = () => {
             {/* Social Links */}
             <div className="flex space-x-6">
               <a
-                href="https://github.com/saiunnava01"
+                href="https://github.com/pallasivaisai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
@@ -57,7 +57,7 @@ const Hero = () => {
                 <Github size={28} />
               </a>
               <a
-                href="https://linkedin.com/in/unnava-jothi-sai-0330102b1"
+                href="https://linkedin.com/in/palla-siva-sai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
@@ -65,13 +65,13 @@ const Hero = () => {
                 <Linkedin size={28} />
               </a>
               <a
-                href="mailto:saiunnava61744@gmail.com"
+                href="mailto:pallasivaisai@example.com"
                 className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
               >
                 <Mail size={28} />
               </a>
               <a
-                href="tel:8374067723"
+                href="tel:+91XXXXXXXXXX"
                 className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
               >
                 <Phone size={28} />
@@ -84,11 +84,9 @@ const Hero = () => {
             <div className="relative">
               {/* Profile image with circular mask */}
               <div className="w-80 h-80 lg:w-96 lg:h-96 mx-auto relative">
-                <img
-                  src="https://i.postimg.cc/q7SGjqL5/profile-pic-perfect.jpg"
-                  alt="UNNAVA JOTHI SAI"
-                  className="w-full h-full object-cover rounded-full border-4 border-white/30 shadow-2xl"
-                />
+                <div className="w-full h-full rounded-full border-4 border-white/30 shadow-2xl bg-gradient-to-br from-orange-400 to-purple-600 flex items-center justify-center text-white text-8xl font-bold">
+                  PSS
+                </div>
                 <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-transparent via-white/10 to-white/20"></div>
               </div>
               

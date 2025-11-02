@@ -17,7 +17,7 @@ const About = () => {
             {/* Profile Image */}
             <div className="relative">
               <div className="w-80 h-80 bg-gradient-to-br from-orange-400 to-purple-600 rounded-2xl mx-auto flex items-center justify-center text-white text-6xl font-bold shadow-2xl">
-                JS
+                PSS
               </div>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-yellow-400 rounded-full opacity-20"></div>
               <div className="absolute -top-6 -left-6 w-24 h-24 bg-blue-400 rounded-full opacity-20"></div>
@@ -30,7 +30,7 @@ const About = () => {
               </h3>
               
               <p className="text-lg text-gray-600 leading-relaxed">
-                My name is <span className="font-semibold text-purple-600">UNNAVA JOTHI SAI</span> and I am searching for a Software Developer role. My interests include learning new languages, listening to podcasts, exploring new skills, and watching movies.
+                My name is <span className="font-semibold text-purple-600">PALLA SIVA SAI</span> and I am searching for a Software Developer role. My interests include learning new languages, listening to podcasts, exploring new skills, and watching movies.
               </p>
               
               <p className="text-lg text-gray-600 leading-relaxed">

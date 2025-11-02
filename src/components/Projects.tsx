@@ -120,7 +120,7 @@ const Projects = () => {
                 {/* Action Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="https://github.com/saiunnava01"
+                    href="https://github.com/pallasivaisai"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 bg-gray-800 text-white px-6 py-3 rounded-full font-medium hover:bg-gray-700 transition-all duration-200 transform hover:scale-105"
