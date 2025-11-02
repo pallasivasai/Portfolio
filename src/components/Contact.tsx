@@ -45,7 +45,7 @@ const Contact = () => {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
-          to_email: 'pallasivaisai@example.com', // Your email
+          to_email: 'psairabel143@gmail.com', // Your email
         }
       );
 
@@ -82,29 +82,29 @@ const Contact = () => {
     {
       icon: <Mail size={24} />,
       label: "Email",
-      value: "pallasivaisai@example.com",
-      link: "mailto:pallasivaisai@example.com",
+      value: "psairabel143@gmail.com",
+      link: "mailto:psairabel143@gmail.com",
       color: "from-blue-500 to-purple-600"
     },
     {
       icon: <Phone size={24} />,
       label: "Phone",
-      value: "+91 XXXXXXXXXX",
-      link: "tel:+91XXXXXXXXXX",
+      value: "+91 9703288210",
+      link: "tel:+919703288210",
       color: "from-green-500 to-blue-500"
     },
     {
       icon: <Github size={24} />,
       label: "GitHub",
-      value: "github.com/pallasivaisai",
-      link: "https://github.com/pallasivaisai",
+      value: "github.com/pallasivasai",
+      link: "https://github.com/pallasivasai",
       color: "from-gray-700 to-gray-900"
     },
     {
       icon: <Linkedin size={24} />,
       label: "LinkedIn",
-      value: "palla-siva-sai",
-      link: "https://linkedin.com/in/palla-siva-sai",
+      value: "p-siva-sai",
+      link: "https://www.linkedin.com/in/p-siva-sai-10686417a/",
       color: "from-blue-600 to-blue-800"
     }
   ];

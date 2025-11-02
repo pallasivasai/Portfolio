@@ -92,15 +92,15 @@ const Hero = () => {
               {/* Floating stats */}
               <div className="absolute -top-4 -right-4 bg-white rounded-2xl p-4 shadow-lg animate-bounce">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-purple-600">7.02</div>
-                  <div className="text-sm text-gray-600">GPA</div>
+                  <div className="text-2xl font-bold text-purple-600">9.45</div>
+                  <div className="text-sm text-gray-600">CGPA</div>
                 </div>
               </div>
               
               <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl p-4 shadow-lg animate-pulse">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-orange-500">B.Sc</div>
-                  <div className="text-sm text-gray-600">CS Graduate</div>
+                  <div className="text-2xl font-bold text-orange-500">MCA</div>
+                  <div className="text-sm text-gray-600">KL University</div>
                 </div>
               </div>
             </div>

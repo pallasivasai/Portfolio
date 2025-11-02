@@ -33,7 +33,7 @@ const About = () => {
               </h3>
               
               <p className="text-lg text-gray-600 leading-relaxed">
-                My name is <span className="font-semibold text-purple-600">PALLA SIVA SAI</span> and I am searching for a Software Developer role. My interests include learning new languages, listening to podcasts, exploring new skills, and watching movies.
+                My name is <span className="font-semibold text-purple-600">PALLA SIVA SAI</span> and I am searching for a Software Developer role. My interests include web development, database design, and cyber security. I'm always learning and exploring new technologies.
               </p>
               
               <p className="text-lg text-gray-600 leading-relaxed">
@@ -50,12 +50,12 @@ const About = () => {
               {/* Quick Stats */}
               <div className="grid grid-cols-2 gap-4 mt-8">
                 <div className="bg-gradient-to-r from-orange-500 to-purple-600 rounded-xl p-4 text-white text-center">
-                  <div className="text-2xl font-bold">B.Sc CS</div>
-                  <div className="text-sm">Degree</div>
+                  <div className="text-2xl font-bold">MCA</div>
+                  <div className="text-sm">KL University</div>
                 </div>
                 <div className="bg-gradient-to-r from-blue-500 to-green-500 rounded-xl p-4 text-white text-center">
-                  <div className="text-2xl font-bold">7.02</div>
-                  <div className="text-sm">GPA</div>
+                  <div className="text-2xl font-bold">9.45</div>
+                  <div className="text-sm">CGPA</div>
                 </div>
               </div>
             </div>

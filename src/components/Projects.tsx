@@ -3,25 +3,42 @@ import React from 'react';
 import { Github, Code } from 'lucide-react';
 
 const Projects = () => {
-  const project = {
-    title: "E-Learning Management System (E-LMS)",
-    description: "A comprehensive full-stack application designed for managing and delivering e-learning content with modern web technologies.",
-    features: [
-      "User authentication and authorization with JWT",
-      "Interactive course management system",
-      "Secure database integration with MySQL",
-      "Responsive frontend design",
-      "Cloud deployment on AWS"
-    ],
-    technologies: {
-      frontend: ["HTML", "CSS", "JavaScript"],
-      backend: ["Python"],
-      database: ["MySQL"],
-      auth: ["JWT"],
-      deployment: ["AWS"]
+  const projects = [
+    {
+      title: "DDoS Attack Detection System",
+      description: "A comprehensive machine learning solution for detecting Distributed Denial of Service (DDoS) attacks using advanced algorithms and data analysis techniques.",
+      technologies: ["Python", "Machine Learning", "Jupyter Notebook", "Data Analysis"],
+      github: "https://github.com/pallasivasai/Comprehensive-Approach-to-Detecting-DDoS-Attacks-using-Machine-Learning",
+      color: "from-red-500 to-orange-500",
+      icon: "🔐"
     },
-    image: "/lovable-uploads/c6adf40f-00c0-4101-8bcc-f9f31dc9429e.png"
-  };
+    {
+      title: "Recipe Ideas App",
+      description: "A modern web application that helps users discover and explore various recipe ideas with an intuitive and responsive interface.",
+      technologies: ["TypeScript", "React", "Tailwind CSS"],
+      github: "https://github.com/pallasivasai/Recipe-Ideas-App",
+      demo: "https://recipe-ideas-app-for-ss4q.bolt.host/",
+      color: "from-green-500 to-emerald-500",
+      icon: "🍳"
+    },
+    {
+      title: "Book Finder Application",
+      description: "A specialized application for college students to easily search, discover, and find books relevant to their courses and interests.",
+      technologies: ["TypeScript", "React", "API Integration"],
+      github: "https://github.com/pallasivasai/Book-Finder-Application-for-College-Students",
+      demo: "https://book-finder-applicat-v34g.bolt.host/",
+      color: "from-blue-500 to-purple-500",
+      icon: "📚"
+    },
+    {
+      title: "Ride Fast - Ride Sharing App",
+      description: "A ride-sharing application with functionalities similar to Rapido or OLA, providing a simple and efficient ride-sharing experience.",
+      technologies: ["TypeScript", "React Native", "Mobile Development"],
+      github: "https://github.com/pallasivasai/ride_fast",
+      color: "from-yellow-500 to-orange-500",
+      icon: "🚗"
+    }
+  ];
 
   return (
     <section id="projects" className="py-20 bg-white">
@@ -36,105 +53,83 @@ const Projects = () => {
           </p>
         </div>
         
-        <div className="max-w-6xl mx-auto">
-          <div className="bg-gradient-to-br from-gray-50 to-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
-            <div className="grid lg:grid-cols-2 gap-0">
-              {/* Project Image/Visual */}
-              <div className="relative bg-gradient-to-br from-purple-500 via-blue-500 to-green-500 p-8 lg:p-12 flex items-center justify-center">
-                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center">
-                  <div className="text-6xl lg:text-8xl text-white font-bold mb-4">E-LMS</div>
-                  <div className="text-white/80 text-lg">Learning Management System</div>
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8">
+            {projects.map((project, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100 overflow-hidden"
+              >
+                {/* Project Header with Icon */}
+                <div className={`bg-gradient-to-r ${project.color} p-8 text-center`}>
+                  <div className="text-6xl mb-4">{project.icon}</div>
+                  <h3 className="text-2xl font-bold text-white">
+                    {project.title}
+                  </h3>
                 </div>
                 
-                {/* Floating Elements */}
-                <div className="absolute top-8 right-8 bg-white/20 rounded-full p-4 backdrop-blur-sm">
-                  <Code className="text-white" size={24} />
-                </div>
-                <div className="absolute bottom-8 left-8 bg-white/20 rounded-full p-4 backdrop-blur-sm">
-                  <Github className="text-white" size={24} />
-                </div>
-              </div>
-              
-              {/* Project Details */}
-              <div className="p-8 lg:p-12">
-                <h3 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-6">
-                  {project.title}
-                </h3>
-                
-                <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                  {project.description}
-                </p>
-                
-                {/* Features */}
-                <div className="mb-8">
-                  <h4 className="text-xl font-semibold text-gray-800 mb-4">Key Features:</h4>
-                  <ul className="space-y-3">
-                    {project.features.map((feature, index) => (
-                      <li key={index} className="flex items-start gap-3">
-                        <div className="w-2 h-2 bg-gradient-to-r from-orange-500 to-purple-600 rounded-full mt-2 flex-shrink-0"></div>
-                        <span className="text-gray-600">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                
-                {/* Technologies */}
-                <div className="mb-8">
-                  <h4 className="text-xl font-semibold text-gray-800 mb-4">Technologies Used:</h4>
-                  <div className="space-y-4">
-                    <div>
-                      <span className="text-sm font-medium text-gray-500 uppercase tracking-wide">Frontend:</span>
-                      <div className="flex flex-wrap gap-2 mt-2">
-                        {project.technologies.frontend.map((tech, index) => (
-                          <span key={index} className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
-                            {tech}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                    
-                    <div>
-                      <span className="text-sm font-medium text-gray-500 uppercase tracking-wide">Backend:</span>
-                      <div className="flex flex-wrap gap-2 mt-2">
-                        {project.technologies.backend.map((tech, index) => (
-                          <span key={index} className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">
-                            {tech}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                    
-                    <div>
-                      <span className="text-sm font-medium text-gray-500 uppercase tracking-wide">Database & Others:</span>
-                      <div className="flex flex-wrap gap-2 mt-2">
-                        {[...project.technologies.database, ...project.technologies.auth, ...project.technologies.deployment].map((tech, index) => (
-                          <span key={index} className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">
-                            {tech}
-                          </span>
-                        ))}
-                      </div>
+                {/* Project Content */}
+                <div className="p-6">
+                  <p className="text-gray-600 leading-relaxed mb-6">
+                    {project.description}
+                  </p>
+                  
+                  {/* Technologies */}
+                  <div className="mb-6">
+                    <h4 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
+                      Technologies
+                    </h4>
+                    <div className="flex flex-wrap gap-2">
+                      {project.technologies.map((tech, techIndex) => (
+                        <span
+                          key={techIndex}
+                          className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium"
+                        >
+                          {tech}
+                        </span>
+                      ))}
                     </div>
                   </div>
-                </div>
-                
-                {/* Action Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <a
-                    href="https://github.com/pallasivaisai"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 bg-gray-800 text-white px-6 py-3 rounded-full font-medium hover:bg-gray-700 transition-all duration-200 transform hover:scale-105"
-                  >
-                    <Github size={20} />
-                    View Code
-                  </a>
-                  <button className="flex items-center justify-center gap-2 border-2 border-gray-800 text-gray-800 px-6 py-3 rounded-full font-medium hover:bg-gray-800 hover:text-white transition-all duration-200 transform hover:scale-105">
-                    <Code size={20} />
-                    Live Demo
-                  </button>
+                  
+                  {/* Action Buttons */}
+                  <div className="flex gap-3">
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 flex items-center justify-center gap-2 bg-gray-800 text-white px-4 py-2 rounded-lg font-medium hover:bg-gray-700 transition-all duration-200"
+                    >
+                      <Github size={18} />
+                      Code
+                    </a>
+                    {project.demo && (
+                      <a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex-1 flex items-center justify-center gap-2 border-2 border-gray-800 text-gray-800 px-4 py-2 rounded-lg font-medium hover:bg-gray-800 hover:text-white transition-all duration-200"
+                      >
+                        <Code size={18} />
+                        Demo
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
-            </div>
+            ))}
+          </div>
+          
+          {/* View More Projects Link */}
+          <div className="text-center mt-12">
+            <a
+              href="https://github.com/pallasivasai?tab=repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-orange-500 to-purple-600 text-white px-8 py-4 rounded-full font-semibold hover:shadow-lg transition-all duration-200 transform hover:scale-105"
+            >
+              <Github size={24} />
+              View More Projects on GitHub
+            </a>
           </div>
         </div>
       </div>
