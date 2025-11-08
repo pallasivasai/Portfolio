@@ -1,0 +1,201 @@
+import React from 'react';
+import { Briefcase, Calendar, MapPin } from 'lucide-react';
+
+const Experience = () => {
+  const experiences = [
+    {
+      company: "OneSource Consulting",
+      role: "Junior IT Recruiter",
+      period: "September 2024 - Present",
+      location: "Hyderabad, Telangana, India",
+      description: "As an EU Technical Recruiter, my role combines both talent expertise and business growth. I specialize in connecting top IT professionals with opportunities across Europe while driving recruitment sales and building long-term client relationships.",
+      responsibilities: [
+        "Partner with clients to understand their hiring needs and deliver tailored recruitment strategies",
+        "Source, engage, and place skilled IT professionals by aligning talent with business goals",
+        "Develop new business opportunities through market research, lead generation, and client outreach",
+        "Drive the end-to-end recruitment sales cycle, from pitching services to negotiating contracts",
+        "Act as a trusted advisor to clients and candidates by providing insights on market trends and salary benchmarks"
+      ],
+      color: "from-orange-500 to-purple-600"
+    },
+    {
+      company: "GirlScript Summer of Code",
+      role: "Open Source Contributor",
+      period: "May 2024 - August 2024",
+      location: "Remote",
+      description: "Actively contributed to open source projects as part of GSSOC'24, achieving significant milestones in collaborative development.",
+      responsibilities: [
+        "Contributed to 10+ repositories in open source GSSOC'24",
+        "38 pull requests accepted and merged",
+        "Achieved Global rank 80 in the program",
+        "Technologies used: HTML, CSS, JavaScript, Python, MySQL"
+      ],
+      color: "from-blue-500 to-cyan-500"
+    },
+    {
+      company: "Unified Mentor",
+      role: "Web Development Intern",
+      period: "June 2024 - July 2024",
+      location: "Remote",
+      description: "Worked on web development projects, enhancing frontend and backend development skills.",
+      responsibilities: [
+        "Developed responsive web applications",
+        "Collaborated with team members on project deliverables",
+        "Implemented modern web technologies and best practices"
+      ],
+      color: "from-green-500 to-teal-500"
+    },
+    {
+      company: "Prodigy InfoTech",
+      role: "Cyber Security Intern",
+      period: "May 2024",
+      location: "Remote",
+      description: "Gained hands-on experience in cybersecurity practices and threat analysis.",
+      responsibilities: [
+        "Performed security assessments and vulnerability testing",
+        "Learned about security monitoring and incident response",
+        "Applied cybersecurity best practices in real-world scenarios"
+      ],
+      color: "from-red-500 to-pink-600"
+    },
+    {
+      company: "TECHPLEMENT",
+      role: "Java Developer Intern",
+      period: "April 2024",
+      location: "Remote",
+      description: "Developed Java-based applications and enhanced programming skills in an enterprise environment.",
+      responsibilities: [
+        "Developed a Currency Converter application",
+        "Worked on multiple Java development tasks",
+        "Followed organization coding standards and best practices"
+      ],
+      color: "from-yellow-500 to-orange-500"
+    },
+    {
+      company: "Tata Consultancy Services",
+      role: "Cyber Security Analyst (Job Simulation)",
+      period: "November 2023 - February 2024",
+      location: "Virtual Experience",
+      description: "Participated in a comprehensive cybersecurity job simulation program.",
+      responsibilities: [
+        "Analyzed security threats and vulnerabilities",
+        "Implemented security monitoring and governance practices",
+        "Gained exposure to enterprise-level cybersecurity operations"
+      ],
+      color: "from-indigo-500 to-blue-600"
+    },
+    {
+      company: "Abhyaz",
+      role: "Software Engineer Intern",
+      period: "March 2023 - May 2023",
+      location: "Chennai, Tamil Nadu, India",
+      description: "Worked as a software engineering intern, contributing to various development projects.",
+      responsibilities: [
+        "Developed and maintained software applications",
+        "Collaborated with cross-functional teams",
+        "Participated in code reviews and testing processes"
+      ],
+      color: "from-purple-500 to-pink-500"
+    },
+    {
+      company: "JPMorgan Chase & Co.",
+      role: "Software Engineering Virtual Experience",
+      period: "July 2022 - October 2022",
+      location: "Virtual Experience",
+      description: "Completed a virtual software engineering program focusing on financial technology solutions.",
+      responsibilities: [
+        "Interfaced with a stock price data feed",
+        "Used JPMorgan Chase frameworks and tools",
+        "Displayed data visually for traders"
+      ],
+      color: "from-blue-600 to-indigo-600"
+    },
+    {
+      company: "KMAC Talent Management",
+      role: "Talent Acquisition Recruiter",
+      period: "May 2022 - June 2022",
+      location: "Work from Home",
+      description: "Gained initial experience in talent acquisition and recruitment processes.",
+      responsibilities: [
+        "Met with managers to discuss job profiles and requirements",
+        "Posted job openings on various platforms like Naukri, Monster, LinkedIn",
+        "Screened resumes and matched candidates to client requirements",
+        "Conducted candidate interviews and assessments based on relevant skills and experience"
+      ],
+      color: "from-teal-500 to-green-600"
+    }
+  ];
+
+  return (
+    <section id="experience" className="py-20 bg-background">
+      <div className="container mx-auto px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-4">
+              Professional Experience
+            </h2>
+            <div className="w-24 h-1 bg-gradient-to-r from-orange-500 to-purple-600 mx-auto mb-4"></div>
+            <p className="text-muted-foreground text-lg">
+              My journey through various roles and organizations
+            </p>
+          </div>
+
+          <div className="space-y-8">
+            {experiences.map((exp, index) => (
+              <div
+                key={index}
+                className="group relative bg-card rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-border"
+              >
+                {/* Timeline dot */}
+                <div className="absolute -left-4 top-10 w-8 h-8 bg-gradient-to-r from-orange-500 to-purple-600 rounded-full border-4 border-background hidden lg:block"></div>
+                
+                <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-4">
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
+                      {exp.role}
+                    </h3>
+                    <div className="flex items-center gap-2 text-lg font-semibold mb-2">
+                      <Briefcase className="w-5 h-5 text-primary" />
+                      <span className={`bg-gradient-to-r ${exp.color} text-transparent bg-clip-text`}>
+                        {exp.company}
+                      </span>
+                    </div>
+                  </div>
+                  
+                  <div className="flex flex-col gap-2 text-muted-foreground">
+                    <div className="flex items-center gap-2">
+                      <Calendar className="w-4 h-4" />
+                      <span className="text-sm">{exp.period}</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <MapPin className="w-4 h-4" />
+                      <span className="text-sm">{exp.location}</span>
+                    </div>
+                  </div>
+                </div>
+
+                <p className="text-muted-foreground mb-4 leading-relaxed">
+                  {exp.description}
+                </p>
+
+                <div className="space-y-2">
+                  <h4 className="font-semibold text-foreground">Key Responsibilities:</h4>
+                  <ul className="list-none space-y-2">
+                    {exp.responsibilities.map((resp, idx) => (
+                      <li key={idx} className="flex items-start gap-2 text-muted-foreground">
+                        <span className="text-primary mt-1">▸</span>
+                        <span>{resp}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Experience;
