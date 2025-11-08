@@ -69,14 +69,6 @@ const Projects = () => {
       demo: "https://book-finder-applicat-v34g.bolt.host/",
       color: "from-blue-500 to-cyan-500",
       icon: "📚"
-    },
-    {
-      title: "Ride Fast - Ride Sharing App",
-      description: "A ride-sharing application with functionalities similar to Rapido or OLA, providing a simple and efficient ride-sharing experience.",
-      technologies: ["TypeScript", "React Native", "Mobile Development"],
-      github: "https://github.com/pallasivasai/ride_fast",
-      color: "from-yellow-500 to-orange-500",
-      icon: "🚗"
     }
   ];
 
