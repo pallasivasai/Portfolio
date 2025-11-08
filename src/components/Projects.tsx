@@ -7,10 +7,26 @@ const Projects = () => {
     {
       title: "DDoS Attack Detection System",
       description: "A comprehensive machine learning solution for detecting Distributed Denial of Service (DDoS) attacks using advanced algorithms and data analysis techniques.",
-      technologies: ["Python", "Machine Learning", "Jupyter Notebook", "Data Analysis"],
+      technologies: ["Python", "Machine Learning", "Jupyter Notebook", "Cybersecurity"],
       github: "https://github.com/pallasivasai/Comprehensive-Approach-to-Detecting-DDoS-Attacks-using-Machine-Learning",
       color: "from-red-500 to-orange-500",
       icon: "🔐"
+    },
+    {
+      title: "Authentication System with Database",
+      description: "A complete signup and login system with working database integration, featuring secure user authentication and session management.",
+      technologies: ["HTML", "PHP", "MySQL", "Authentication"],
+      github: "https://github.com/pallasivasai/Signup-login-system-with-working-data-base",
+      color: "from-purple-500 to-pink-500",
+      icon: "🔑"
+    },
+    {
+      title: "Vote Management System",
+      description: "A voting system application built with PHP for managing elections and polls with database-driven functionality.",
+      technologies: ["PHP", "MySQL", "Database Design"],
+      github: "https://github.com/pallasivasai/votesystem",
+      color: "from-indigo-500 to-blue-500",
+      icon: "🗳️"
     },
     {
       title: "Recipe Ideas App",
@@ -27,7 +43,7 @@ const Projects = () => {
       technologies: ["TypeScript", "React", "API Integration"],
       github: "https://github.com/pallasivasai/Book-Finder-Application-for-College-Students",
       demo: "https://book-finder-applicat-v34g.bolt.host/",
-      color: "from-blue-500 to-purple-500",
+      color: "from-blue-500 to-cyan-500",
       icon: "📚"
     },
     {
