@@ -29,6 +29,30 @@ const Projects = () => {
       icon: "🗳️"
     },
     {
+      title: "Password Cracker",
+      description: "A Python-based password cracking tool demonstrating various password breaking techniques for educational and cybersecurity learning purposes.",
+      technologies: ["Python", "Cybersecurity", "Educational"],
+      github: "https://github.com/pallasivasai/Password-Cracker",
+      color: "from-red-600 to-pink-600",
+      icon: "🔓"
+    },
+    {
+      title: "Instagram Phishing Attack (Learning)",
+      description: "An educational demonstration of phishing attack techniques for cybersecurity awareness and ethical hacking learning purposes.",
+      technologies: ["PHP", "Security Research", "Ethical Hacking"],
+      github: "https://github.com/pallasivasai/Instagram_Phishing_attack",
+      color: "from-orange-600 to-red-600",
+      icon: "🎣"
+    },
+    {
+      title: "Basic Banking System",
+      description: "A comprehensive banking system built with PHP and MySQL featuring account management, transactions, and database operations.",
+      technologies: ["PHP", "MySQL", "Database"],
+      github: "https://github.com/pallasivasai/Basic_Banking_System",
+      color: "from-teal-500 to-cyan-600",
+      icon: "🏦"
+    },
+    {
       title: "Recipe Ideas App",
       description: "A modern web application that helps users discover and explore various recipe ideas with an intuitive and responsive interface.",
       technologies: ["TypeScript", "React", "Tailwind CSS"],
