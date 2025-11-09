@@ -120,9 +120,117 @@ const Experience = () => {
         "Met with managers to discuss job profiles and requirements",
         "Posted job openings on various platforms like Naukri, Monster, LinkedIn",
         "Screened resumes and matched candidates to client requirements",
-        "Conducted candidate interviews and assessments based on relevant skills and experience"
+        "Conducted candidate interviews and assessments based on relevant skills and experience",
+        "Updated company Excel sheets visible to managers for candidate tracking",
+        "Participated in multi-level interviews and onboarding processes"
       ],
       color: "from-teal-500 to-green-600"
+    },
+    {
+      company: "The Sparks Foundation",
+      role: "Web Development & Designing Intern",
+      period: "November 2021 - December 2021",
+      location: "Remote",
+      description: "Worked on web development and design projects, gaining practical experience in frontend technologies.",
+      responsibilities: [
+        "Developed responsive web applications",
+        "Applied design principles to create user-friendly interfaces",
+        "Collaborated on various web development projects"
+      ],
+      color: "from-cyan-500 to-blue-500"
+    },
+    {
+      company: "Internshala",
+      role: "Internshala Student Partner (ISP)",
+      period: "September 2021 - December 2021",
+      location: "Remote",
+      description: "Represented Internshala on campus, promoting internship opportunities and career development programs.",
+      responsibilities: [
+        "Promoted Internshala training programs and internship opportunities",
+        "Organized campus awareness campaigns",
+        "Connected students with career development resources"
+      ],
+      color: "from-green-500 to-emerald-500"
+    },
+    {
+      company: "PrepBytes",
+      role: "Campus Business Manager",
+      period: "September 2021 - December 2021",
+      location: "Remote",
+      description: "Managed campus outreach and business development activities for PrepBytes coding platform.",
+      responsibilities: [
+        "Promoted coding programs and courses on campus",
+        "Organized technical events and workshops",
+        "Developed partnerships with student communities"
+      ],
+      color: "from-violet-500 to-purple-500"
+    },
+    {
+      company: "Unschool",
+      role: "Human Resources Intern",
+      period: "September 2021 - October 2021",
+      location: "Andhra Pradesh, India",
+      description: "Working as HR for an organization fulfilled a dream. Learned the end-to-end hiring process and essential HR skills including empathy, passion, research, sourcing, and data collection tools.",
+      responsibilities: [
+        "Participated in end-to-end hiring process",
+        "Conducted research and candidate sourcing",
+        "Used HR tools for data collection and management",
+        "Developed empathy and communication skills essential for HR"
+      ],
+      color: "from-pink-500 to-rose-500"
+    },
+    {
+      company: "Topper Technologies Pvt Ltd",
+      role: "Intern",
+      period: "September 2021 - October 2021",
+      location: "Andhra Pradesh, India",
+      description: "Gained practical experience in technology solutions and business operations.",
+      responsibilities: [
+        "Worked on technology projects",
+        "Collaborated with team on various assignments",
+        "Applied technical skills in real-world scenarios"
+      ],
+      color: "from-amber-500 to-orange-500"
+    },
+    {
+      company: "The Sparks Foundation",
+      role: "Talent Acquisition (Human Resource)",
+      period: "June 2021 - July 2021",
+      location: "Guntur, Andhra Pradesh, India",
+      description: "Focused on talent acquisition and recruitment activities for The Sparks Foundation.",
+      responsibilities: [
+        "Managed talent acquisition processes",
+        "Screened and evaluated candidates",
+        "Coordinated recruitment activities"
+      ],
+      color: "from-sky-500 to-blue-500"
+    },
+    {
+      company: "CodeSpeedy Technology Private Limited",
+      role: "Java Programmer",
+      period: "April 2021 - July 2021",
+      location: "Guntur, Andhra Pradesh, India",
+      description: "Developed Java-based applications and enhanced programming skills.",
+      responsibilities: [
+        "Wrote and maintained Java code",
+        "Developed software applications",
+        "Collaborated on programming projects"
+      ],
+      color: "from-red-500 to-orange-600"
+    },
+    {
+      company: "PwC",
+      role: "Cybersecurity Virtual Case Experience",
+      period: "January 2021 - February 2021",
+      location: "Guntur, Andhra Pradesh, India",
+      description: "Completed virtual cybersecurity training covering integrated information defense, risk assessment, and network security.",
+      responsibilities: [
+        "Integrated Information Defense",
+        "Risk Assessment",
+        "IT System Security Baseline",
+        "Network Segmentation"
+      ],
+      color: "from-orange-600 to-red-600"
     }
   ];
 
