@@ -6,8 +6,8 @@ const Projects = () => {
   const projects = [
     {
       title: "DDoS Attack Detection System",
-      description: "A comprehensive machine learning solution for detecting Distributed Denial of Service (DDoS) attacks using advanced algorithms and data analysis techniques.",
-      technologies: ["Python", "Machine Learning", "Jupyter Notebook", "Cybersecurity"],
+      description: "A comprehensive machine learning solution for detecting Distributed Denial of Service (DDoS) attacks using my own SAI algorithm with advanced data analysis techniques.",
+      technologies: ["Python", "Machine Learning", "SAI Algorithm", "Jupyter Notebook", "Cybersecurity"],
       github: "https://github.com/pallasivasai/Comprehensive-Approach-to-Detecting-DDoS-Attacks-using-Machine-Learning",
       color: "from-red-500 to-orange-500",
       icon: "🔐"
