@@ -5,7 +5,7 @@ import { Github, Code } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "DDoS Attack Detection System",
+      title: "DDoS Attack Detection System (Sai algorithm)",
       description: "A comprehensive machine learning solution for detecting Distributed Denial of Service (DDoS) attacks using my own SAI algorithm with advanced data analysis techniques.",
       technologies: ["Python", "Machine Learning", "SAI Algorithm", "Jupyter Notebook", "Cybersecurity"],
       github: "https://github.com/pallasivasai/Comprehensive-Approach-to-Detecting-DDoS-Attacks-using-Machine-Learning",
