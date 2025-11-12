@@ -16,40 +16,15 @@ const Navigation = () => {
   ];
 
   const handleDownloadResume = () => {
-    // Create a simple text resume for demo purposes
-    const resumeContent = `
-PALLA SIVA SAI
-Aspiring Software Developer | Web Development Enthusiast
-
-CONTACT:
-Email: pallasivaisai@example.com
-Phone: +91 XXXXXXXXXX
-LinkedIn: linkedin.com/in/palla-siva-sai
-GitHub: github.com/pallasivaisai
-
-EDUCATION:
-MCA – University Name (2025) – 8.5+ CGPA
-B.Tech/B.VOC – College Name (2023) – 7.0+ CGPA
-
-SKILLS:
-Languages & Technologies: HTML, CSS, JavaScript, PHP, Java, Python, SQL, DBMS
-Areas of Expertise: Web development, Full-stack development
-
-PROJECTS:
-E-Learning Management System (E-LMS)
-- Full-stack application for managing e-learning content
-- Technologies: HTML, CSS, JavaScript, Python, MySQL, JWT, AWS
-    `;
-    
-    const blob = new Blob([resumeContent], { type: 'text/plain' });
-    const url = URL.createObjectURL(blob);
+    // Direct download link from Google Drive
+    const driveUrl = 'https://drive.google.com/uc?export=download&id=1ve4TV1RnxzS0wwOesnF5oTlZy2ZNsVhm';
     const a = document.createElement('a');
-    a.href = url;
-    a.download = 'PALLA_SIVA_SAI_Resume.txt';
+    a.href = driveUrl;
+    a.target = '_blank';
+    a.download = 'PALLA_SIVA_SAI_Resume.pdf';
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
-    URL.revokeObjectURL(url);
   };
 
   return (
