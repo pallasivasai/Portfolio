@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Menu, X, Download } from 'lucide-react';
+import { Menu, X, Download, Mail } from 'lucide-react';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -48,14 +48,23 @@ const Navigation = () => {
             ))}
           </div>
           
-          {/* Download Resume Button */}
-          <button
-            onClick={handleDownloadResume}
-            className="hidden md:flex items-center gap-2 bg-gradient-to-r from-orange-500 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:shadow-lg transition-all duration-200 transform hover:scale-105"
-          >
-            <Download size={16} />
-            Download CV
-          </button>
+          {/* Contact and Download Buttons */}
+          <div className="hidden md:flex items-center gap-3">
+            <a
+              href="mailto:psairabel143@gmail.com"
+              className="flex items-center gap-2 bg-white border-2 border-orange-500 text-orange-500 px-4 py-2 rounded-full text-sm font-medium hover:bg-orange-500 hover:text-white transition-all duration-200 transform hover:scale-105"
+            >
+              <Mail size={16} />
+              Get In Touch
+            </a>
+            <button
+              onClick={handleDownloadResume}
+              className="flex items-center gap-2 bg-gradient-to-r from-orange-500 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:shadow-lg transition-all duration-200 transform hover:scale-105"
+            >
+              <Download size={16} />
+              Download CV
+            </button>
+          </div>
           
           {/* Mobile menu button */}
           <button
@@ -79,13 +88,22 @@ const Navigation = () => {
                 {item.name}
               </a>
             ))}
-            <button
-              onClick={handleDownloadResume}
-              className="mt-4 flex items-center gap-2 bg-gradient-to-r from-orange-500 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-medium w-full justify-center"
-            >
-              <Download size={16} />
-              Download CV
-            </button>
+            <div className="space-y-3 mt-4">
+              <a
+                href="mailto:psairabel143@gmail.com"
+                className="flex items-center gap-2 bg-white border-2 border-orange-500 text-orange-500 px-4 py-2 rounded-full text-sm font-medium w-full justify-center hover:bg-orange-500 hover:text-white transition-all duration-200"
+              >
+                <Mail size={16} />
+                Get In Touch
+              </a>
+              <button
+                onClick={handleDownloadResume}
+                className="flex items-center gap-2 bg-gradient-to-r from-orange-500 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-medium w-full justify-center"
+              >
+                <Download size={16} />
+                Download CV
+              </button>
+            </div>
           </div>
         )}
       </div>
