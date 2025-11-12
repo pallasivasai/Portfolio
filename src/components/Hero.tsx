@@ -71,14 +71,6 @@ const Hero = () => {
               >
                 <Mail size={28} />
               </a>
-              <a
-                href="https://www.skills.google/public_profiles/79b60659-bb15-42dd-852a-9ba427a0158c"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
-              >
-                <Mail size={28} />
-              </a>
             </div>
           </div>
           
