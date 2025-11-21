@@ -14,6 +14,15 @@ const Projects = () => {
       icon: "🔐"
     },
     {
+      title: "SAI Game",
+      description: "An interactive Python game project showcasing game development skills and creative programming with engaging gameplay mechanics.",
+      technologies: ["Python", "Game Development", "Jupyter Notebook"],
+      github: "https://github.com/pallasivasai/My_own_game",
+      demo: "https://colab.research.google.com/drive/1edrBGixKoIsSJ7DbaXo8S9Yyt9nDChdj?usp=sharing",
+      color: "from-purple-600 to-blue-600",
+      icon: "🎮"
+    },
+    {
       title: "Authentication System with Database",
       description: "A complete signup and login system with working database integration, featuring secure user authentication and session management.",
       technologies: ["HTML", "PHP", "MySQL", "Authentication"],
@@ -37,15 +46,6 @@ const Projects = () => {
       demo: "https://colab.research.google.com/drive/1Y2qRXzUFSR_JgRjYLc1gRdiq9Iu3unN2?usp=sharing",
       color: "from-red-600 to-pink-600",
       icon: "🔓"
-    },
-    {
-      title: "SAI Game",
-      description: "An interactive Python game project showcasing game development skills and creative programming with engaging gameplay mechanics.",
-      technologies: ["Python", "Game Development", "Jupyter Notebook"],
-      github: "https://github.com/pallasivasai/My_own_game",
-      demo: "https://colab.research.google.com/drive/1edrBGixKoIsSJ7DbaXo8S9Yyt9nDChdj?usp=sharing",
-      color: "from-purple-600 to-blue-600",
-      icon: "🎮"
     },
     {
       title: "Instagram Phishing Attack (Learning)",
