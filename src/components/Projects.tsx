@@ -34,6 +34,7 @@ const Projects = () => {
       description: "A Python-based password cracking tool demonstrating various password breaking techniques for educational and cybersecurity learning purposes.",
       technologies: ["Python", "Cybersecurity", "Educational"],
       github: "https://github.com/pallasivasai/Password-Cracker",
+      demo: "https://colab.research.google.com/drive/1Y2qRXzUFSR_JgRjYLc1gRdiq9Iu3unN2?usp=sharing",
       color: "from-red-600 to-pink-600",
       icon: "🔓"
     },
