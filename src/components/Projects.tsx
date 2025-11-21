@@ -39,6 +39,15 @@ const Projects = () => {
       icon: "🔓"
     },
     {
+      title: "SAI Game",
+      description: "An interactive Python game project showcasing game development skills and creative programming with engaging gameplay mechanics.",
+      technologies: ["Python", "Game Development", "Jupyter Notebook"],
+      github: "https://github.com/pallasivasai/My_own_game",
+      demo: "https://colab.research.google.com/drive/1edrBGixKoIsSJ7DbaXo8S9Yyt9nDChdj?usp=sharing",
+      color: "from-purple-600 to-blue-600",
+      icon: "🎮"
+    },
+    {
       title: "Instagram Phishing Attack (Learning)",
       description: "An educational demonstration of phishing attack techniques for cybersecurity awareness and ethical hacking learning purposes.",
       technologies: ["PHP", "Security Research", "Ethical Hacking"],
