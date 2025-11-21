@@ -23,6 +23,15 @@ const Projects = () => {
       icon: "🎮"
     },
     {
+      title: "SAI Search Algorithm",
+      description: "An innovative perfect hashing algorithm that implements a two-level universal hashing scheme with cryptographic security. Uses SHA-256 and collision-free data structures to achieve O(1) lookup time. Supports bidirectional search - find values by keys or keys by values. Features include cryptographic randomness and guaranteed collision-free storage, making it ideal for high-performance data retrieval applications.",
+      technologies: ["Python", "Algorithm Design", "Data Structures", "Cryptography"],
+      github: "https://github.com/pallasivasai/Searching_Algorithm_By_Me",
+      demo: "https://colab.research.google.com/drive/1zjPs60ea85VchQRWU1IQjpIA3ejoRAFl?usp=sharing",
+      color: "from-cyan-500 to-blue-600",
+      icon: "🔍"
+    },
+    {
       title: "Authentication System with Database",
       description: "A complete signup and login system with working database integration, featuring secure user authentication and session management.",
       technologies: ["HTML", "PHP", "MySQL", "Authentication"],
