@@ -15,7 +15,7 @@ const Projects = () => {
     },
     {
       title: "SAI Game",
-      description: "An interactive Python game project showcasing game development skills and creative programming with engaging gameplay mechanics.",
+      description: "A fascinating math magic trick game that demonstrates algebraic principles. You choose a number, the program performs a series of arithmetic operations (doubling, adding an imaginary number, halving, and subtracting), and mathematically predicts the result will always be half your imaginary number - showcasing Python programming and mathematical thinking.",
       technologies: ["Python", "Game Development", "Jupyter Notebook"],
       github: "https://github.com/pallasivasai/My_own_game",
       demo: "https://colab.research.google.com/drive/1edrBGixKoIsSJ7DbaXo8S9Yyt9nDChdj?usp=sharing",
