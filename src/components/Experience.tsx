@@ -231,6 +231,63 @@ const Experience = () => {
         "Network Segmentation"
       ],
       color: "from-orange-600 to-red-600"
+    },
+    {
+      company: "Clifford Chance",
+      role: "Cyber Security Global Virtual Internship",
+      period: "December 2020 - February 2021",
+      location: "Guntur, Andhra Pradesh, India",
+      description: "Completed a comprehensive virtual internship focused on cybersecurity and data protection in legal contexts.",
+      responsibilities: [
+        "Practical guidance on an ICO Dawn Raid",
+        "Assess the legal situation after a data leak and take the necessary steps",
+        "Respond to a data-related damages claim"
+      ],
+      color: "from-blue-600 to-cyan-600"
+    },
+    {
+      company: "Suven Consultants and Technology Pvt.Ltd.",
+      role: "PHP-MySQL Intern",
+      period: "December 2020 - January 2021",
+      location: "Karempudi, Andhra Pradesh, India",
+      description: "Gained hands-on experience in backend development using PHP and MySQL technologies.",
+      responsibilities: [
+        "Developed web applications using PHP and MySQL",
+        "Worked on database design and management",
+        "Implemented backend functionality for web projects"
+      ],
+      color: "from-purple-600 to-indigo-600"
+    },
+    {
+      company: "Microsoft",
+      role: "Engineering: Undergraduate & Masters Asia Virtual Experience Program",
+      period: "May 2020 - June 2020",
+      location: "Karempudi, Andhra Pradesh, India",
+      description: "Participated in Microsoft's comprehensive virtual experience program covering professional development and Microsoft's cultural values.",
+      responsibilities: [
+        "Learned Microsoft's values – Respect, Integrity, and Accountability",
+        "Used SMART goal setting to build career development plans",
+        "Explored Microsoft's commitment to putting values into action",
+        "Discovered Microsoft's Four Solutions that enable digital transformation",
+        "Developed Growth Mindset and professional branding skills"
+      ],
+      color: "from-sky-500 to-blue-600"
+    },
+    {
+      company: "Accenture",
+      role: "Accenture Discovery Program",
+      period: "April 2020 - June 2020",
+      location: "Work From Home",
+      description: "Completed Accenture's Discovery Program focused on project management, user experience, and problem-solving skills.",
+      responsibilities: [
+        "Assembled project plans",
+        "User Journey Redesign",
+        "Outcomes Analysis",
+        "Fixed errors and debugged issues",
+        "Prioritisation & Impact Assessment",
+        "Set Project Priorities"
+      ],
+      color: "from-violet-600 to-purple-600"
     }
   ];
 
