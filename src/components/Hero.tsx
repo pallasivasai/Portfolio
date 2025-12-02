@@ -82,7 +82,7 @@ const Hero = () => {
                 <img 
                   src={profilePhoto} 
                   alt="PALLA SIVA SAI" 
-                  className="w-full h-full rounded-full border-4 border-white/30 shadow-2xl object-cover"
+                  className="w-full h-full rounded-full border-4 border-white/30 shadow-2xl object-contain bg-gray-100"
                 />
                 <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-transparent via-white/10 to-white/20"></div>
               </div>
