@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Github, Linkedin, Mail, Phone } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone, Cloud } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -36,12 +36,18 @@ const Footer = () => {
                 <Linkedin size={24} />
               </a>
               <a
+                href="mailto:psairabel143@gmail.com"
+                className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
+              >
+                <Mail size={24} />
+              </a>
+              <a
                 href="https://www.skills.google/public_profiles/79b60659-bb15-42dd-852a-9ba427a0158c"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
               >
-                <Mail size={24} />
+                <Cloud size={24} />
               </a>
             </div>
           </div>
@@ -93,6 +99,17 @@ const Footer = () => {
                   className="text-gray-400 hover:text-white transition-colors duration-200"
                 >
                   LinkedIn Profile
+                </a>
+              </div>
+              <div className="flex items-center gap-3">
+                <Cloud size={18} className="text-orange-500" />
+                <a
+                  href="https://www.skills.google/public_profiles/79b60659-bb15-42dd-852a-9ba427a0158c"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                >
+                  Google Cloud Skills
                 </a>
               </div>
             </div>
