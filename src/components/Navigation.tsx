@@ -17,15 +17,7 @@ const Navigation = () => {
   ];
 
   const handleDownloadResume = () => {
-    // Direct download link from Google Drive
-    const driveUrl = 'https://drive.google.com/uc?export=download&id=1ve4TV1RnxzS0wwOesnF5oTlZy2ZNsVhm';
-    const a = document.createElement('a');
-    a.href = driveUrl;
-    a.target = '_blank';
-    a.download = 'PALLA_SIVA_SAI_Resume.pdf';
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
+    window.open('https://drive.google.com/file/d/1ve4TV1RnxzS0wwOesnF5oTlZy2ZNsVhm/view?usp=sharing', '_blank');
   };
 
   return (
