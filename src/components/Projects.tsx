@@ -33,8 +33,8 @@ const Projects = () => {
     },
     {
       title: "Password Cracker",
-      description: "A Python-based password cracking tool demonstrating various password breaking techniques for educational and cybersecurity learning purposes.",
-      technologies: ["Python", "Cybersecurity", "Educational"],
+      description: "A comprehensive Python-based password cracking tool demonstrating multiple attack methodologies including brute force, dictionary attacks, and hash cracking techniques. Features customizable character sets, wordlist integration, and support for common hash algorithms (MD5, SHA-1, SHA-256). Built for educational purposes to help cybersecurity enthusiasts understand password vulnerabilities and the importance of strong password policies.",
+      technologies: ["Python", "Cybersecurity", "Hash Algorithms", "Brute Force", "Educational"],
       github: "https://github.com/pallasivasai/Password-Cracker",
       demo: "https://colab.research.google.com/drive/1Y2qRXzUFSR_JgRjYLc1gRdiq9Iu3unN2?usp=sharing",
       color: "from-red-600 to-pink-600",
