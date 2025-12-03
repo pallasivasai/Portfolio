@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Github, Linkedin, Mail, Phone, Cloud } from 'lucide-react';
+import { Github, Linkedin, Mail, Cloud, GraduationCap, Shield, Code, Building2 } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -18,12 +18,13 @@ const Footer = () => {
               Aspiring Software Developer passionate about creating elegant solutions 
               to complex problems through clean, efficient code.
             </p>
-            <div className="flex space-x-4">
+            <div className="flex flex-wrap gap-3">
               <a
                 href="https://github.com/pallasivasai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
+                title="GitHub"
               >
                 <Github size={24} />
               </a>
@@ -32,12 +33,14 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
+                title="LinkedIn"
               >
                 <Linkedin size={24} />
               </a>
               <a
                 href="mailto:psairabel143@gmail.com"
                 className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
+                title="Email"
               >
                 <Mail size={24} />
               </a>
@@ -46,8 +49,45 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
+                title="Google Cloud Skills"
               >
                 <Cloud size={24} />
+              </a>
+              <a
+                href="https://www.hackerrank.com/profile/Psivasai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
+                title="HackerRank"
+              >
+                <Code size={24} />
+              </a>
+              <a
+                href="https://tryhackme.com/p/psivasai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
+                title="TryHackMe"
+              >
+                <Shield size={24} />
+              </a>
+              <a
+                href="https://www.salesforce.com/trailblazer/pssai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
+                title="Salesforce Trailblazer"
+              >
+                <Building2 size={24} />
+              </a>
+              <a
+                href="https://www.coursera.org/user/8060386efadd322754c7edd16383b43d"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
+                title="Coursera"
+              >
+                <GraduationCap size={24} />
               </a>
             </div>
           </div>
@@ -110,6 +150,50 @@ const Footer = () => {
                   className="text-gray-400 hover:text-white transition-colors duration-200"
                 >
                   Google Cloud Skills
+                </a>
+              </div>
+              <div className="flex items-center gap-3">
+                <Code size={18} className="text-orange-500" />
+                <a
+                  href="https://www.hackerrank.com/profile/Psivasai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                >
+                  HackerRank
+                </a>
+              </div>
+              <div className="flex items-center gap-3">
+                <Shield size={18} className="text-orange-500" />
+                <a
+                  href="https://tryhackme.com/p/psivasai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                >
+                  TryHackMe
+                </a>
+              </div>
+              <div className="flex items-center gap-3">
+                <Building2 size={18} className="text-orange-500" />
+                <a
+                  href="https://www.salesforce.com/trailblazer/pssai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                >
+                  Salesforce Trailblazer
+                </a>
+              </div>
+              <div className="flex items-center gap-3">
+                <GraduationCap size={18} className="text-orange-500" />
+                <a
+                  href="https://www.coursera.org/user/8060386efadd322754c7edd16383b43d"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                >
+                  Coursera
                 </a>
               </div>
             </div>

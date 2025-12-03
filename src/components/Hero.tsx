@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Github, Linkedin, Mail, Phone, Cloud } from 'lucide-react';
+import { Github, Linkedin, Mail, Cloud, GraduationCap, Shield, Code, Building2 } from 'lucide-react';
 import profilePhoto from '@/assets/profile-photo.jpeg';
 
 const Hero = () => {
@@ -48,12 +48,13 @@ const Hero = () => {
             </div>
             
             {/* Social Links */}
-            <div className="flex space-x-6">
+            <div className="flex flex-wrap gap-4">
               <a
                 href="https://github.com/pallasivasai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
+                title="GitHub"
               >
                 <Github size={28} />
               </a>
@@ -62,12 +63,14 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
+                title="LinkedIn"
               >
                 <Linkedin size={28} />
               </a>
               <a
                 href="mailto:psairabel143@gmail.com"
                 className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
+                title="Email"
               >
                 <Mail size={28} />
               </a>
@@ -76,8 +79,45 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
+                title="Google Cloud Skills"
               >
                 <Cloud size={28} />
+              </a>
+              <a
+                href="https://www.hackerrank.com/profile/Psivasai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
+                title="HackerRank"
+              >
+                <Code size={28} />
+              </a>
+              <a
+                href="https://tryhackme.com/p/psivasai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
+                title="TryHackMe"
+              >
+                <Shield size={28} />
+              </a>
+              <a
+                href="https://www.salesforce.com/trailblazer/pssai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
+                title="Salesforce Trailblazer"
+              >
+                <Building2 size={28} />
+              </a>
+              <a
+                href="https://www.coursera.org/user/8060386efadd322754c7edd16383b43d"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
+                title="Coursera"
+              >
+                <GraduationCap size={28} />
               </a>
             </div>
           </div>
