@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Mail, Phone, Github, Linkedin, Send } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import emailjs from '@emailjs/browser';
+import { supabase } from '@/integrations/supabase/client';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -34,6 +35,20 @@ const Contact = () => {
     setIsLoading(true);
 
     try {
+      // Save message to database
+      const { error: dbError } = await supabase
+        .from('contact_messages')
+        .insert({
+          name: formData.name,
+          email: formData.email,
+          message: formData.message
+        });
+
+      if (dbError) {
+        console.error('Database error:', dbError);
+        throw new Error('Failed to save message');
+      }
+
       // Initialize EmailJS with public key
       emailjs.init(EMAIL_PUBLIC_KEY);
 
