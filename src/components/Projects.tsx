@@ -68,7 +68,8 @@ const Projects = () => {
       title: "Basic Banking System",
       description: "A comprehensive banking system built with PHP and MySQL featuring account management, transactions, and database operations.",
       technologies: ["PHP", "MySQL", "Database"],
-      github: "https://github.com/pallasivasai/Basic_Banking_System",
+      github: "https://github.com/pallasivasai/saibank",
+      demo: "https://saibank.lovable.app/",
       color: "from-teal-500 to-cyan-600",
       icon: "🏦"
     },
