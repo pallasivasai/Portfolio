@@ -49,22 +49,23 @@ const Contact = () => {
         throw new Error('Failed to save message');
       }
 
-      // Initialize EmailJS with public key
-      emailjs.init(EMAIL_PUBLIC_KEY);
-
-      // Send email using EmailJS
-      const result = await emailjs.send(
-        EMAIL_SERVICE_ID,
-        EMAIL_TEMPLATE_ID,
-        {
-          from_name: formData.name,
-          from_email: formData.email,
-          message: formData.message,
-          to_email: 'psairabel143@gmail.com', // Your email
-        }
-      );
-
-      console.log('Email sent successfully:', result);
+      // Try to send email notification (non-blocking)
+      try {
+        emailjs.init(EMAIL_PUBLIC_KEY);
+        await emailjs.send(
+          EMAIL_SERVICE_ID,
+          EMAIL_TEMPLATE_ID,
+          {
+            from_name: formData.name,
+            from_email: formData.email,
+            message: formData.message,
+            to_email: 'psairabel143@gmail.com',
+          }
+        );
+        console.log('Email notification sent');
+      } catch (emailError) {
+        console.log('Email notification failed, but message was saved:', emailError);
+      }
 
       toast({
         title: "Message sent successfully!",
