@@ -67,8 +67,8 @@ const Projects = () => {
     },
     {
       title: "SAIBANK - Basic Banking System",
-      description: "A comprehensive banking system built with PHP and MySQL featuring account management, transactions, balance tracking, and complete database operations for seamless banking functionality.",
-      technologies: ["PHP", "MySQL", "Database", "CRUD Operations"],
+      description: "A revolutionary banking system featuring a unique 30-minute payment reversal mechanism using SQL triggers. If a wrong payment is made, it can be automatically reversed within 30 minutes through intelligent trigger-based transaction monitoring. This innovative concept demonstrates advanced database automation, time-based validation, and seamless rollback functionality for enhanced banking security.",
+      technologies: ["PHP", "MySQL", "SQL Triggers", "Database", "CRUD Operations"],
       github: "https://github.com/pallasivasai/saibank",
       demo: "https://saibank.lovable.app/",
       color: "from-teal-500 to-cyan-600",
