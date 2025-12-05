@@ -59,7 +59,7 @@ const Projects = () => {
     {
       title: "Instagram Phishing Attack (Learning)",
       description: "An educational demonstration of phishing attack techniques for cybersecurity awareness and ethical hacking learning purposes. Features GitHub API integration to store captured data directly to a GitHub repository, showcasing API usage and data handling.",
-      technologies: ["Security Research", "Ethical Hacking", "HTML", "CSS", "GitHub API"],
+      technologies: ["Security Research", "Ethical Hacking", "HTML", "CSS", "JavaScript", "GitHub API"],
       github: "https://github.com/Psivasai970/Psivasai970.github.io",
       demo: "https://psivasai970.github.io/",
       color: "from-orange-600 to-red-600",
