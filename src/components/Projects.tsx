@@ -32,6 +32,24 @@ const Projects = () => {
       icon: "🔍"
     },
     {
+      title: "SAIBANK",
+      description: "A revolutionary banking system featuring a unique 30-minute payment reversal mechanism using SQL triggers. If a wrong payment is made, it can be automatically reversed within 30 minutes through intelligent trigger-based transaction monitoring. This innovative concept demonstrates advanced database automation, time-based validation, and seamless rollback functionality for enhanced banking security.",
+      technologies: ["SQL Triggers", "Database", "MySQL", "TypeScript", "React", "Tailwind CSS", "Lovable Cloud"],
+      github: "https://github.com/pallasivasai/saibank",
+      demo: "https://saibank.lovable.app/",
+      color: "from-teal-500 to-cyan-600",
+      icon: "🏦"
+    },
+    {
+      title: "Instagram Phishing Attack (Learning)",
+      description: "An educational demonstration of phishing attack techniques for cybersecurity awareness and ethical hacking learning purposes. Features GitHub API integration to store captured data directly to a GitHub repository, showcasing API usage and data handling.",
+      technologies: ["Security Research", "Ethical Hacking", "HTML", "CSS", "JavaScript", "GitHub API"],
+      github: "https://github.com/Psivasai970/Psivasai970.github.io",
+      demo: "https://psivasai970.github.io/",
+      color: "from-orange-600 to-red-600",
+      icon: "🎣"
+    },
+    {
       title: "Password Cracker",
       description: "A comprehensive Python-based password cracking tool demonstrating multiple attack methodologies including brute force, dictionary attacks, and hash cracking techniques. Features customizable character sets, wordlist integration, and support for common hash algorithms (MD5, SHA-1, SHA-256). Built for educational purposes to help cybersecurity enthusiasts understand password vulnerabilities and the importance of strong password policies.",
       technologies: ["Python", "Cybersecurity", "Hash Algorithms", "Brute Force", "Educational"],
@@ -55,24 +73,6 @@ const Projects = () => {
       github: "https://github.com/pallasivasai/votesystem",
       color: "from-indigo-500 to-blue-500",
       icon: "🗳️"
-    },
-    {
-      title: "Instagram Phishing Attack (Learning)",
-      description: "An educational demonstration of phishing attack techniques for cybersecurity awareness and ethical hacking learning purposes. Features GitHub API integration to store captured data directly to a GitHub repository, showcasing API usage and data handling.",
-      technologies: ["Security Research", "Ethical Hacking", "HTML", "CSS", "JavaScript", "GitHub API"],
-      github: "https://github.com/Psivasai970/Psivasai970.github.io",
-      demo: "https://psivasai970.github.io/",
-      color: "from-orange-600 to-red-600",
-      icon: "🎣"
-    },
-    {
-      title: "SAIBANK - Basic Banking System",
-      description: "A revolutionary banking system featuring a unique 30-minute payment reversal mechanism using SQL triggers. If a wrong payment is made, it can be automatically reversed within 30 minutes through intelligent trigger-based transaction monitoring. This innovative concept demonstrates advanced database automation, time-based validation, and seamless rollback functionality for enhanced banking security.",
-      technologies: ["SQL Triggers", "Database", "MySQL", "TypeScript", "React", "Tailwind CSS", "Lovable Cloud"],
-      github: "https://github.com/pallasivasai/saibank",
-      demo: "https://saibank.lovable.app/",
-      color: "from-teal-500 to-cyan-600",
-      icon: "🏦"
     },
     {
       title: "Recipe Ideas App",
