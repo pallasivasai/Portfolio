@@ -68,7 +68,7 @@ const Projects = () => {
     {
       title: "SAIBANK - Basic Banking System",
       description: "A revolutionary banking system featuring a unique 30-minute payment reversal mechanism using SQL triggers. If a wrong payment is made, it can be automatically reversed within 30 minutes through intelligent trigger-based transaction monitoring. This innovative concept demonstrates advanced database automation, time-based validation, and seamless rollback functionality for enhanced banking security.",
-      technologies: ["TypeScript", "React", "Tailwind CSS", "MySQL", "SQL Triggers", "Database", "Lovable Cloud"],
+      technologies: ["SQL Triggers", "Database", "MySQL", "TypeScript", "React", "Tailwind CSS", "Lovable Cloud"],
       github: "https://github.com/pallasivasai/saibank",
       demo: "https://saibank.lovable.app/",
       color: "from-teal-500 to-cyan-600",
