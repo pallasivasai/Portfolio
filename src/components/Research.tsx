@@ -60,7 +60,8 @@ const Research = () => {
               </h3>
               <p className="text-gray-300 leading-relaxed">
                 DDoS attacks continue to threaten online services worldwide. Many detection approaches rely on heavy models 
-                or large feature sets unsuitable for low-resource environments. <strong className="text-white">SAI (Simple Anomaly Identifier)</strong> is 
+                or large feature sets unsuitable for low-resource environments. <strong className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">SAI (Simple Anomaly Identifier)</strong> — named after 
+                its creator, <strong className="text-white">SIVASAI</strong> — is 
                 a lightweight algorithm for real-time DDoS detection that uses a minimal feature set combining IP-derived statistics 
                 and inter-packet timing with a compact classifier for fast detection on constrained hardware.
               </p>
