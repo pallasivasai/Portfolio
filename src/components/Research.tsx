@@ -46,12 +46,10 @@ const Research = () => {
           </CardHeader>
 
           <CardContent className="relative space-y-8">
-            {/* Author & Institution */}
+            {/* Author */}
             <div className="flex flex-wrap items-center gap-4 text-gray-300">
               <span className="font-semibold text-white">Author:</span>
               <span>P. Siva Sai</span>
-              <span className="text-gray-500">|</span>
-              <span>Koneru Lakshmaiah Education Foundation</span>
             </div>
 
             {/* Abstract */}
