@@ -11,7 +11,7 @@ const Research = () => {
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4 text-purple-300 border-purple-500/50">
             <Award className="w-3 h-3 mr-1" />
-            Academic Research
+            Personal Research
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Research Publications
