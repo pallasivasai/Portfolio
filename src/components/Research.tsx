@@ -49,7 +49,7 @@ const Research = () => {
             {/* Author */}
             <div className="flex flex-wrap items-center gap-4 text-gray-300">
               <span className="font-semibold text-white">Author:</span>
-              <span>P. Siva Sai</span>
+              <span>PALLA SIVASAI</span>
             </div>
 
             {/* Abstract */}
