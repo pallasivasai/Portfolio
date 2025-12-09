@@ -154,9 +154,9 @@ const Research = () => {
             {/* Action Buttons */}
             <div className="flex flex-wrap gap-4 pt-4">
               <Button asChild className="bg-purple-600 hover:bg-purple-700">
-                <a 
-                  href="https://www.researchgate.net/publication/398446113_SAI_Algorithm_A_Lightweight_Real-Time_DDoS_Detection_Algorithm_Design_Implementation_and_Reproducible_Results_Colab_Demo" 
-                  target="_blank" 
+              <a 
+                  href="https://www.researchgate.net/publication/398484579_SAI_Algorithm_A_Lightweight_Real-Time_DDoS_Detection_Algorithm_Design_Implementation_and_Reproducible_Results_Colab_Demo" 
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FileText className="w-4 h-4 mr-2" />
