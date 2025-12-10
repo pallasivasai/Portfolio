@@ -34,7 +34,7 @@ const Research = () => {
                 December 2025
               </Badge>
               <Badge variant="outline" className="text-blue-400 border-blue-500/50">
-                DOI: 10.13140/RG.2.2.36294.04165
+                DOI: 10.13140/RG.2.2.28578.08648
               </Badge>
             </div>
             <CardTitle className="text-2xl md:text-3xl text-white leading-tight">
