@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Mail, Phone, Github, Linkedin, Send } from 'lucide-react';
+import { Mail, Phone, Github, Linkedin, Send, Calendar } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import emailjs from '@emailjs/browser';
 import { supabase } from '@/integrations/supabase/client';
@@ -122,6 +122,13 @@ const Contact = () => {
       value: "p-siva-sai",
       link: "https://www.linkedin.com/in/p-siva-sai-10686417a/",
       color: "from-blue-600 to-blue-800"
+    },
+    {
+      icon: <Calendar size={24} />,
+      label: "Schedule a Call",
+      value: "Book a 30-min meeting",
+      link: "https://calendly.com/psivasai/30min",
+      color: "from-purple-500 to-pink-500"
     }
   ];
 
