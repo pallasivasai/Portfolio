@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Github, Code } from 'lucide-react';
+import saiGptIcon from '@/assets/sai-gpt-icon.png';
 
 const Projects = () => {
   const projects = [
@@ -29,7 +30,8 @@ const Projects = () => {
       github: "https://github.com/pallasivasai/sai-gpt",
       demo: "https://sai-gpt.lovable.app/",
       color: "from-amber-500 to-orange-600",
-      icon: "🙏"
+      icon: saiGptIcon,
+      isImage: true
     },
     {
       title: "SAI Game",
@@ -134,7 +136,13 @@ const Projects = () => {
               >
                 {/* Project Header with Icon */}
                 <div className={`bg-gradient-to-r ${project.color} p-8 text-center`}>
-                  <div className="text-6xl mb-4">{project.icon}</div>
+                  <div className="text-6xl mb-4">
+                    {project.isImage ? (
+                      <img src={project.icon} alt={project.title} className="w-20 h-20 mx-auto rounded-full object-cover" />
+                    ) : (
+                      project.icon
+                    )}
+                  </div>
                   <h3 className="text-2xl font-bold text-white">
                     {project.title}
                   </h3>
