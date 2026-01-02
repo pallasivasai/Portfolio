@@ -14,6 +14,15 @@ const Projects = () => {
       icon: "🔐"
     },
     {
+      title: "SAI-Encryption-Decryption Algorithm (Always O(1))",
+      description: "A revolutionary encryption and decryption algorithm that achieves constant O(1) time complexity for all operations. This groundbreaking approach ensures consistent performance regardless of data size, making it ideal for high-performance cryptographic applications where speed and efficiency are critical.",
+      technologies: ["Python", "Cryptography", "Algorithm Design", "Data Security"],
+      github: "https://github.com/pallasivasai/SAI-Encryption-Decryption-Algorithm",
+      demo: "https://colab.research.google.com/drive/1r97QtUcIuUiji6DTdmZNPrcfKyfskmEI?usp=sharing",
+      color: "from-emerald-500 to-teal-600",
+      icon: "🔒"
+    },
+    {
       title: "SAI Game",
       description: "A fascinating math magic trick game that demonstrates algebraic principles. You choose a number, the program performs a series of arithmetic operations (doubling, adding an imaginary number, halving, and subtracting), and mathematically predicts the result will always be half your imaginary number - showcasing Python programming and mathematical thinking.",
       technologies: ["Python", "Game Development", "Jupyter Notebook"],
