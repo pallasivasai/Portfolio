@@ -132,18 +132,31 @@ const Projects = () => {
             {projects.map((project, index) => (
               <div
                 key={index}
-                className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100 overflow-hidden"
+                className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 border border-gray-100 overflow-hidden hover:border-transparent"
+                style={{
+                  animationDelay: `${index * 100}ms`
+                }}
               >
                 {/* Project Header with Icon */}
-                <div className={`bg-gradient-to-r ${project.color} p-8 text-center`}>
-                  <div className="text-6xl mb-4">
+                <div className={`bg-gradient-to-r ${project.color} p-8 text-center relative overflow-hidden`}>
+                  {/* Animated background overlay */}
+                  <div className="absolute inset-0 bg-white/0 group-hover:bg-white/10 transition-all duration-500" />
+                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                    <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-white/20 via-transparent to-transparent" />
+                  </div>
+                  
+                  <div className="text-6xl mb-4 relative z-10 transform group-hover:scale-110 transition-transform duration-500">
                     {project.isImage ? (
-                      <img src={project.icon} alt={project.title} className="w-20 h-20 mx-auto rounded-full object-cover" />
+                      <img 
+                        src={project.icon} 
+                        alt={project.title} 
+                        className="w-20 h-20 mx-auto rounded-full object-cover ring-4 ring-white/30 group-hover:ring-white/60 transition-all duration-500 group-hover:shadow-xl" 
+                      />
                     ) : (
-                      project.icon
+                      <span className="drop-shadow-lg">{project.icon}</span>
                     )}
                   </div>
-                  <h3 className="text-2xl font-bold text-white">
+                  <h3 className="text-2xl font-bold text-white relative z-10 group-hover:tracking-wide transition-all duration-300">
                     {project.title}
                   </h3>
                 </div>
@@ -163,7 +176,7 @@ const Projects = () => {
                       {project.technologies.map((tech, techIndex) => (
                         <span
                           key={techIndex}
-                          className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium"
+                          className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-gradient-to-r hover:from-orange-500 hover:to-purple-600 hover:text-white transition-all duration-300 cursor-default transform hover:scale-105"
                         >
                           {tech}
                         </span>
@@ -177,9 +190,9 @@ const Projects = () => {
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex-1 flex items-center justify-center gap-2 bg-gray-800 text-white px-4 py-2 rounded-lg font-medium hover:bg-gray-700 transition-all duration-200"
+                      className="flex-1 flex items-center justify-center gap-2 bg-gray-800 text-white px-4 py-2 rounded-lg font-medium hover:bg-gray-900 hover:shadow-lg hover:shadow-gray-800/25 transition-all duration-300 transform hover:scale-105 active:scale-95"
                     >
-                      <Github size={18} />
+                      <Github size={18} className="group-hover:rotate-12 transition-transform duration-300" />
                       Code
                     </a>
                     {project.demo && (
@@ -187,7 +200,7 @@ const Projects = () => {
                         href={project.demo}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex-1 flex items-center justify-center gap-2 border-2 border-gray-800 text-gray-800 px-4 py-2 rounded-lg font-medium hover:bg-gray-800 hover:text-white transition-all duration-200"
+                        className="flex-1 flex items-center justify-center gap-2 border-2 border-gray-800 text-gray-800 px-4 py-2 rounded-lg font-medium hover:bg-gradient-to-r hover:from-orange-500 hover:to-purple-600 hover:text-white hover:border-transparent hover:shadow-lg transition-all duration-300 transform hover:scale-105 active:scale-95"
                       >
                         <Code size={18} />
                         Demo
