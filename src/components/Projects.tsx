@@ -23,6 +23,15 @@ const Projects = () => {
       icon: "🔒"
     },
     {
+      title: "SAI-GPT",
+      description: "An AI-powered devotional assistant designed for everyone, including non-educational persons, to explore and learn about Grandhas, spiritual texts, devotional questions, and knowledge about Hindu gods. Built to make spiritual wisdom accessible to all through conversational AI.",
+      technologies: ["TypeScript", "React", "AI", "Lovable Cloud", "Tailwind CSS"],
+      github: "https://github.com/pallasivasai/sai-gpt",
+      demo: "https://sai-gpt.lovable.app/",
+      color: "from-amber-500 to-orange-600",
+      icon: "🙏"
+    },
+    {
       title: "SAI Game",
       description: "A fascinating math magic trick game that demonstrates algebraic principles. You choose a number, the program performs a series of arithmetic operations (doubling, adding an imaginary number, halving, and subtracting), and mathematically predicts the result will always be half your imaginary number - showcasing Python programming and mathematical thinking.",
       technologies: ["Python", "Game Development", "Jupyter Notebook"],
