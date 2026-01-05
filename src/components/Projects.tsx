@@ -2,6 +2,7 @@
 import React from 'react';
 import { Github, Code } from 'lucide-react';
 import saiGptIcon from '@/assets/sai-gpt-icon.png';
+import saiEncryptionIcon from '@/assets/sai-encryption-icon.png';
 
 const Projects = () => {
   const projects = [
@@ -21,7 +22,8 @@ const Projects = () => {
       github: "https://github.com/pallasivasai/SAI-Encryption-Decryption-Algorithm",
       demo: "https://colab.research.google.com/drive/1r97QtUcIuUiji6DTdmZNPrcfKyfskmEI?usp=sharing",
       color: "from-emerald-500 to-teal-600",
-      icon: "🔒"
+      icon: saiEncryptionIcon,
+      isImage: true
     },
     {
       title: "SAI-GPT",
