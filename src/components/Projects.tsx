@@ -141,6 +141,36 @@ const Projects = () => {
               >
                 {/* Project Header with Icon */}
                 <div className={`bg-gradient-to-r ${project.color} p-8 text-center relative overflow-hidden`}>
+                  {/* Animated floating particles */}
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    {[...Array(6)].map((_, i) => (
+                      <div
+                        key={i}
+                        className="absolute w-2 h-2 bg-white/30 rounded-full animate-float"
+                        style={{
+                          left: `${15 + i * 15}%`,
+                          top: `${20 + (i % 3) * 25}%`,
+                          animationDelay: `${i * 0.5}s`,
+                          animationDuration: `${3 + i * 0.5}s`
+                        }}
+                      />
+                    ))}
+                    {[...Array(4)].map((_, i) => (
+                      <div
+                        key={`star-${i}`}
+                        className="absolute w-1 h-1 bg-white/50 rounded-full animate-twinkle"
+                        style={{
+                          left: `${10 + i * 25}%`,
+                          top: `${30 + (i % 2) * 40}%`,
+                          animationDelay: `${i * 0.3}s`
+                        }}
+                      />
+                    ))}
+                    {/* Floating rings */}
+                    <div className="absolute w-16 h-16 border border-white/20 rounded-full animate-pulse-slow" style={{ top: '10%', right: '10%' }} />
+                    <div className="absolute w-8 h-8 border border-white/15 rounded-full animate-pulse-slow" style={{ bottom: '20%', left: '15%', animationDelay: '1s' }} />
+                  </div>
+                  
                   {/* Animated background overlay */}
                   <div className="absolute inset-0 bg-white/0 group-hover:bg-white/10 transition-all duration-500" />
                   <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
