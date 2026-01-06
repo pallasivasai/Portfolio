@@ -8,16 +8,6 @@ import sSecretChatIcon from '@/assets/s-secret-chat-icon.png';
 const Projects = () => {
   const projects = [
     {
-      title: "S-Secret Chat",
-      description: "A private and secure chat application designed exclusively for couples who want complete privacy in their conversations. Chat one-on-one with your loved one without any doubts or worries. Features end-to-end encryption ensuring only you and your partner can read messages, with a clean and intimate interface built for trust and love.",
-      technologies: ["TypeScript", "React", "End-to-End Encryption", "Lovable Cloud", "Tailwind CSS", "Real-time Messaging"],
-      github: "https://github.com/pallasivasai/s-secret-chat",
-      demo: "https://sai-web.lovable.app",
-      color: "from-pink-500 to-rose-600",
-      icon: sSecretChatIcon,
-      isImage: true
-    },
-    {
       title: "DDoS Attack Detection System (Sai algorithm)",
       description: "A comprehensive machine learning solution for detecting Distributed Denial of Service (DDoS) attacks using my own SAI algorithm with advanced data analysis techniques. Achieves approximately 99% accuracy in threat detection.",
       technologies: ["Python", "Machine Learning", "SAI Algorithm", "Jupyter Notebook", "Cybersecurity"],
@@ -72,6 +62,16 @@ const Projects = () => {
       demo: "https://saibank.lovable.app/",
       color: "from-teal-500 to-cyan-600",
       icon: "🏦"
+    },
+    {
+      title: "S-Secret Chat",
+      description: "A private and secure chat application designed exclusively for couples who want complete privacy in their conversations. Chat one-on-one with your loved one without any doubts or worries. Features end-to-end encryption ensuring only you and your partner can read messages, with a clean and intimate interface built for trust and love.",
+      technologies: ["TypeScript", "React", "End-to-End Encryption", "Lovable Cloud", "Tailwind CSS", "Real-time Messaging"],
+      github: "https://github.com/pallasivasai/s-secret-chat",
+      demo: "https://sai-web.lovable.app",
+      color: "from-pink-500 to-rose-600",
+      icon: sSecretChatIcon,
+      isImage: true
     },
     {
       title: "Instagram Phishing Attack (Learning)",
