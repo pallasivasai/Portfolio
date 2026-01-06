@@ -67,7 +67,7 @@ const Projects = () => {
       title: "S-Secret Chat",
       description: "A private and secure chat application designed exclusively for couples who want complete privacy in their conversations. Chat one-on-one with your loved one without any doubts or worries. Features end-to-end encryption ensuring only you and your partner can read messages, with a clean and intimate interface built for trust and love.",
       technologies: ["TypeScript", "React", "End-to-End Encryption", "Lovable Cloud", "Tailwind CSS", "Real-time Messaging"],
-      github: "https://github.com/pallasivasai/s-secret-chat",
+      github: "https://github.com/pallasivasai/sai-web",
       demo: "https://sai-web.lovable.app",
       color: "from-pink-500 to-rose-600",
       icon: sSecretChatIcon,
