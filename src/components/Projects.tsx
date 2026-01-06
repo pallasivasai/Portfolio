@@ -74,15 +74,6 @@ const Projects = () => {
       isImage: true
     },
     {
-      title: "Instagram Phishing Attack (Learning)",
-      description: "An educational demonstration of phishing attack techniques for cybersecurity awareness and ethical hacking learning purposes. Features GitHub API integration to store captured data directly to a GitHub repository, showcasing API usage and data handling.",
-      technologies: ["Security Research", "Ethical Hacking", "HTML", "CSS", "JavaScript", "GitHub API"],
-      github: "https://github.com/Psivasai970/Psivasai970.github.io",
-      demo: "https://psivasai970.github.io/",
-      color: "from-orange-600 to-red-600",
-      icon: "🎣"
-    },
-    {
       title: "Password Cracker",
       description: "A comprehensive Python-based password cracking tool demonstrating multiple attack methodologies including brute force, dictionary attacks, and hash cracking techniques. Features customizable character sets, wordlist integration, and support for common hash algorithms (MD5, SHA-1, SHA-256). Built for educational purposes to help cybersecurity enthusiasts understand password vulnerabilities and the importance of strong password policies.",
       technologies: ["Python", "Cybersecurity", "Hash Algorithms", "Brute Force", "Educational"],
@@ -90,6 +81,15 @@ const Projects = () => {
       demo: "https://colab.research.google.com/drive/1Y2qRXzUFSR_JgRjYLc1gRdiq9Iu3unN2?usp=sharing",
       color: "from-red-600 to-pink-600",
       icon: "🔓"
+    },
+    {
+      title: "Instagram Phishing Attack (Learning)",
+      description: "An educational demonstration of phishing attack techniques for cybersecurity awareness and ethical hacking learning purposes. Features GitHub API integration to store captured data directly to a GitHub repository, showcasing API usage and data handling.",
+      technologies: ["Security Research", "Ethical Hacking", "HTML", "CSS", "JavaScript", "GitHub API"],
+      github: "https://github.com/Psivasai970/Psivasai970.github.io",
+      demo: "https://psivasai970.github.io/",
+      color: "from-orange-600 to-red-600",
+      icon: "🎣"
     },
     {
       title: "Authentication System with Database",
