@@ -86,7 +86,8 @@ const Projects = () => {
       title: "Cyber Awareness Quiz By P Siva Sai",
       description: "An interactive cybersecurity awareness quiz application with a unique fullscreen enforcement feature—once the quiz starts, users cannot escape fullscreen mode until completion. This ensures focused learning and prevents cheating during assessments. Designed to educate users about cyber threats, safe online practices, and security best practices through engaging questions.",
       technologies: ["JavaScript", "HTML", "CSS", "Fullscreen API", "Cybersecurity Education"],
-      github: "https://github.com/pallasivasai/cyber-awareness-quiz",
+      github: "https://github.com/pallasivasai/s-quiz",
+      demo: "https://s-quiz.lovable.app",
       color: "from-blue-600 to-indigo-600",
       icon: "🛡️"
     },
