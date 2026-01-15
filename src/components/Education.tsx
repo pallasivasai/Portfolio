@@ -62,12 +62,12 @@ const Education = () => {
                     <div className="flex-1">
                       <div className="flex items-center gap-4 mb-4">
                         <div className={`w-4 h-4 rounded-full bg-gradient-to-r ${edu.color}`}></div>
-                        <span className={`px-3 py-1 rounded-full text-sm font-medium ${
+                        <span className={`px-4 py-1.5 rounded-full text-sm font-bold ${
                           edu.status === 'Current' 
-                            ? 'bg-green-100 text-green-800' 
-                            : 'bg-gray-100 text-gray-600'
+                            ? 'bg-green-500 text-white' 
+                            : 'bg-gradient-to-r from-emerald-500 to-green-600 text-white shadow-md'
                         }`}>
-                          {edu.status}
+                          ✓ {edu.status}
                         </span>
                       </div>
                       
