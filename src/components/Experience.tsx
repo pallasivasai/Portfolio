@@ -4,10 +4,26 @@ import { Briefcase, Calendar, MapPin } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
+      company: "Government School",
+      role: "Computer Science Teacher",
+      period: "January 2026 - Present",
+      location: "India",
+      description: "Currently serving as a Government School Teacher, teaching IT/ITES and Computer Science subjects to students. Passionate about educating the next generation with essential digital literacy and programming skills.",
+      responsibilities: [
+        "Teaching IT/ITES and Computer Science curriculum to students",
+        "Developing lesson plans and educational materials for computer science topics",
+        "Introducing students to programming fundamentals and digital literacy",
+        "Conducting practical computer lab sessions and hands-on exercises",
+        "Mentoring students on technology careers and emerging tech trends",
+        "Organizing coding workshops and technology awareness programs"
+      ],
+      color: "from-emerald-500 to-teal-600"
+    },
+    {
       company: "OneSource Consulting",
-      role: "Junior IT Recruiter",
-      period: "September 2024 - Present",
-      location: "Hyderabad, Telangana, India",
+      role: "Technical Recruiter",
+      period: "September 2025 - January 2026",
+      location: "Remote",
       description: "As an EU Technical Recruiter, my role combines both talent expertise and business growth. I specialize in connecting top IT professionals with opportunities across Europe while driving recruitment sales and building long-term client relationships.",
       responsibilities: [
         "Partner with clients to understand their hiring needs and deliver tailored recruitment strategies",
