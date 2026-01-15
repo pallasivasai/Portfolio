@@ -10,7 +10,7 @@ const Experience = () => {
       location: "India",
       description: "Currently serving as a Government School Teacher, teaching IT/ITES and Computer Science subjects to students. Passionate about educating the next generation with essential digital literacy and programming skills.",
       responsibilities: [
-        "Teaching IT/ITES and Computer Science curriculum to students",
+        "Teaching IT/ITES trade and Computer Science curriculum to students",
         "Developing lesson plans and educational materials for computer science topics",
         "Introducing students to programming fundamentals and digital literacy",
         "Conducting practical computer lab sessions and hands-on exercises",
