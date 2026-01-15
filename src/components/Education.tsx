@@ -92,8 +92,8 @@ const Education = () => {
                     </div>
                     
                     <div className="mt-6 lg:mt-0 lg:ml-8">
-                      <div className={`w-20 h-20 rounded-2xl bg-gradient-to-r ${edu.color} flex items-center justify-center text-white font-bold text-xl shadow-lg`}>
-                        {edu.year}
+                      <div className={`px-6 py-4 rounded-2xl bg-gradient-to-r ${edu.color} flex items-center justify-center text-white font-bold text-lg shadow-lg whitespace-nowrap`}>
+                        ✓ {edu.status}
                       </div>
                     </div>
                   </div>
