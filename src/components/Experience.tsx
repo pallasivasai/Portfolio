@@ -20,7 +20,7 @@ const Experience = () => {
       color: "from-emerald-500 to-teal-600"
     },
     {
-      company: "OneSource Consulting",
+      company: "OneSource Consulting (Payroll via SEDYAM IT SERVICES PVT LTD)",
       role: "Technical Recruiter",
       period: "September 2025 - January 2026",
       location: "Remote",
