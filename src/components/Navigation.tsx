@@ -12,6 +12,7 @@ const Navigation = () => {
     { name: 'Education', href: '#education' },
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
+    { name: 'Certifications', href: '#certifications' },
     { name: 'Services', href: '#services' },
     { name: 'Get Touch', href: 'mailto:psairabel143@gmail.com', isEmail: true },
     { name: 'Contact', href: '#contact' },
