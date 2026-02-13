@@ -59,7 +59,7 @@ const Contact = () => {
             from_name: formData.name,
             from_email: formData.email,
             message: formData.message,
-            to_email: 'psairabel143@gmail.com',
+            to_email: 'imsivasai01@gmail.com',
           }
         );
         console.log('Email notification sent');
@@ -98,8 +98,8 @@ const Contact = () => {
     {
       icon: <Mail size={24} />,
       label: "Email",
-      value: "psairabel143@gmail.com",
-      link: "mailto:psairabel143@gmail.com",
+      value: "imsivasai01@gmail.com",
+      link: "mailto:imsivasai01@gmail.com",
       color: "from-blue-500 to-purple-600"
     },
     {
