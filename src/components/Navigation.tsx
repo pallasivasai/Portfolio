@@ -19,7 +19,7 @@ const Navigation = () => {
   ];
 
   const handleDownloadResume = () => {
-    window.open('https://drive.google.com/file/d/1ve4TV1RnxzS0wwOesnF5oTlZy2ZNsVhm/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1O6aVJ7BkqImQwgR-sDWz8I3c5zDbHTCc/view?usp=sharing', '_blank');
   };
 
   return (
