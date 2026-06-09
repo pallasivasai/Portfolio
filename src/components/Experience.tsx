@@ -6,7 +6,7 @@ const Experience = () => {
     {
       company: "Government School",
       role: "Computer Science Teacher",
-      period: "January 2026 - Present",
+      period: "January 2026 - May 2026",
       location: "India",
       description: "Currently serving as a Government School Teacher, teaching IT/ITES and Computer Science subjects to students. Passionate about educating the next generation with essential digital literacy and programming skills.",
       responsibilities: [
