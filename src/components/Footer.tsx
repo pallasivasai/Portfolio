@@ -29,7 +29,7 @@ const Footer = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://www.linkedin.com/in/pallasivasai/"
+                href="https://www.linkedin.com/in/p-siva-sai-10686417a/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
@@ -133,7 +133,7 @@ const Footer = () => {
               <div className="flex items-center gap-3">
                 <Linkedin size={18} className="text-orange-500" />
                 <a
-                  href="https://www.linkedin.com/in/pallasivasai/"
+                  href="https://www.linkedin.com/in/p-siva-sai-10686417a/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors duration-200"

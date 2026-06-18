@@ -9,7 +9,7 @@ const Certifications = () => {
       issuer: "Coursera",
       icon: Shield,
       color: "from-red-600 to-red-800",
-      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      verificationUrl: "https://www.linkedin.com/in/p-siva-sai-10686417a/details/certifications/",
       category: "Cybersecurity"
     },
     {
@@ -17,7 +17,7 @@ const Certifications = () => {
       issuer: "PwC / Forage",
       icon: Lock,
       color: "from-orange-600 to-red-600",
-      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      verificationUrl: "https://www.linkedin.com/in/p-siva-sai-10686417a/details/certifications/",
       category: "Cybersecurity",
       description: "Integrated Information Defense, Risk Assessment, IT System Security Baseline, Network Segmentation"
     },
@@ -26,7 +26,7 @@ const Certifications = () => {
       issuer: "Clifford Chance / Forage",
       icon: Shield,
       color: "from-purple-600 to-red-600",
-      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      verificationUrl: "https://www.linkedin.com/in/p-siva-sai-10686417a/details/certifications/",
       category: "Cybersecurity",
       description: "ICO Dawn Raid, Data Leak Assessment, Data-related Damages Response"
     },
@@ -35,7 +35,7 @@ const Certifications = () => {
       issuer: "TCS / Forage",
       icon: Server,
       color: "from-blue-700 to-purple-700",
-      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      verificationUrl: "https://www.linkedin.com/in/p-siva-sai-10686417a/details/certifications/",
       category: "Cybersecurity"
     },
     {
@@ -43,7 +43,7 @@ const Certifications = () => {
       issuer: "Prodigy InfoTech",
       icon: Lock,
       color: "from-green-600 to-teal-600",
-      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      verificationUrl: "https://www.linkedin.com/in/p-siva-sai-10686417a/details/certifications/",
       category: "Cybersecurity"
     }
   ];
@@ -55,7 +55,7 @@ const Certifications = () => {
       issuer: "Udemy",
       icon: Brain,
       color: "from-purple-500 to-indigo-600",
-      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      verificationUrl: "https://www.linkedin.com/in/p-siva-sai-10686417a/details/certifications/",
       category: "AI/ML"
     },
     {
@@ -63,7 +63,7 @@ const Certifications = () => {
       issuer: "SoloLearn",
       icon: Code,
       color: "from-blue-500 to-cyan-600",
-      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      verificationUrl: "https://www.linkedin.com/in/p-siva-sai-10686417a/details/certifications/",
       category: "Web Development"
     },
     {
@@ -71,7 +71,7 @@ const Certifications = () => {
       issuer: "JPMorgan Chase & Co. / Forage",
       icon: FileCode,
       color: "from-blue-600 to-blue-800",
-      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      verificationUrl: "https://www.linkedin.com/in/p-siva-sai-10686417a/details/certifications/",
       category: "Software Engineering",
       description: "Stock Price Data Feed, JPMC Frameworks, Data Visualization for Traders"
     },
@@ -80,7 +80,7 @@ const Certifications = () => {
       issuer: "Microsoft / Forage",
       icon: Laptop,
       color: "from-blue-500 to-green-500",
-      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      verificationUrl: "https://www.linkedin.com/in/p-siva-sai-10686417a/details/certifications/",
       category: "Software Engineering",
       description: "SMART Goal Setting, Microsoft Values, Cultural Transformation"
     },
@@ -89,7 +89,7 @@ const Certifications = () => {
       issuer: "Accenture / Forage",
       icon: Globe,
       color: "from-purple-600 to-purple-800",
-      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      verificationUrl: "https://www.linkedin.com/in/p-siva-sai-10686417a/details/certifications/",
       category: "Technology Consulting",
       description: "User Journey Redesign, Outcomes Analysis, Prioritisation & Impact Assessment"
     },
@@ -98,7 +98,7 @@ const Certifications = () => {
       issuer: "Suven Consultants and Technology",
       icon: Database,
       color: "from-indigo-500 to-purple-600",
-      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      verificationUrl: "https://www.linkedin.com/in/p-siva-sai-10686417a/details/certifications/",
       category: "Backend Development"
     }
   ];
@@ -259,7 +259,7 @@ const Certifications = () => {
         {/* View All Link */}
         <div className="text-center mt-12">
           <a
-            href="https://www.linkedin.com/in/pallasivasai/details/certifications/"
+            href="https://www.linkedin.com/in/p-siva-sai-10686417a/details/certifications/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold text-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
