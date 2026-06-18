@@ -59,7 +59,7 @@ const Hero = () => {
                 <Github size={28} />
               </a>
               <a
-                href="https://www.linkedin.com/in/p-siva-sai-10686417a/"
+                href="https://www.linkedin.com/in/pallasivasai/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
