@@ -120,7 +120,7 @@ const Contact = () => {
       icon: <Linkedin size={24} />,
       label: "LinkedIn",
       value: "p-siva-sai",
-      link: "https://www.linkedin.com/in/p-siva-sai-10686417a/",
+      link: "https://www.linkedin.com/in/pallasivasai/",
       color: "from-blue-600 to-blue-800"
     },
     {
