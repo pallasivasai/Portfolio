@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Github, Linkedin, Mail, Cloud, GraduationCap, Shield, Code, Building2 } from 'lucide-react';
+import { Github, Linkedin, Mail, Cloud, GraduationCap, Shield, Code, Building2, Link, User } from 'lucide-react';
 import profilePhoto from '@/assets/profile-photo.jpeg';
 
 const Hero = () => {
