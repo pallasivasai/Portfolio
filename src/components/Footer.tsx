@@ -214,6 +214,28 @@ const Footer = () => {
                   Coursera
                 </a>
               </div>
+              <div className="flex items-center gap-3">
+                <User size={18} className="text-orange-500" />
+                <a
+                  href="https://about.me/psivasai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                >
+                  About.me
+                </a>
+              </div>
+              <div className="flex items-center gap-3">
+                <Link size={18} className="text-orange-500" />
+                <a
+                  href="https://linktr.ee/psivasai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                >
+                  Linktree
+                </a>
+              </div>
             </div>
             
             <div className="mt-6">
