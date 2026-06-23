@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Menu, X, Download, Mail } from 'lucide-react';
+import { Menu, X, Download, Link, User } from 'lucide-react';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
