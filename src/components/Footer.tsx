@@ -89,6 +89,24 @@ const Footer = () => {
               >
                 <GraduationCap size={24} />
               </a>
+              <a
+                href="https://about.me/psivasai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
+                title="About.me"
+              >
+                <User size={24} />
+              </a>
+              <a
+                href="https://linktr.ee/psivasai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
+                title="Linktree"
+              >
+                <Link size={24} />
+              </a>
             </div>
           </div>
           
