@@ -43,14 +43,34 @@ const Navigation = () => {
             ))}
           </div>
           
-          {/* Download Resume Button */}
-          <button
-            onClick={handleDownloadResume}
-            className="hidden md:flex items-center gap-2 bg-gradient-to-r from-orange-500 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:shadow-lg transition-all duration-200 transform hover:scale-105"
-          >
-            <Download size={16} />
-            Download CV
-          </button>
+          {/* Social Links & Download Resume Button */}
+          <div className="hidden md:flex items-center gap-3">
+            <a
+              href="https://about.me/psivasai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:text-orange-500 transition-colors duration-200"
+              title="About.me"
+            >
+              <User size={20} />
+            </a>
+            <a
+              href="https://linktr.ee/psivasai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:text-orange-500 transition-colors duration-200"
+              title="Linktree"
+            >
+              <Link size={20} />
+            </a>
+            <button
+              onClick={handleDownloadResume}
+              className="flex items-center gap-2 bg-gradient-to-r from-orange-500 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:shadow-lg transition-all duration-200 transform hover:scale-105"
+            >
+              <Download size={16} />
+              Download CV
+            </button>
+          </div>
           
           {/* Mobile menu button */}
           <button
