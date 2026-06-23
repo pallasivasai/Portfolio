@@ -119,6 +119,24 @@ const Hero = () => {
               >
                 <GraduationCap size={28} />
               </a>
+              <a
+                href="https://about.me/psivasai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
+                title="About.me"
+              >
+                <User size={28} />
+              </a>
+              <a
+                href="https://linktr.ee/psivasai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-yellow-300 transition-colors duration-200 transform hover:scale-110"
+                title="Linktree"
+              >
+                <Link size={28} />
+              </a>
             </div>
           </div>
           
