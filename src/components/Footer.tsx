@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Github, Linkedin, Mail, Cloud, GraduationCap, Shield, Code, Building2 } from 'lucide-react';
+import { Github, Linkedin, Mail, Cloud, GraduationCap, Shield, Code, Building2, Link, User } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -88,6 +88,24 @@ const Footer = () => {
                 title="Coursera"
               >
                 <GraduationCap size={24} />
+              </a>
+              <a
+                href="https://about.me/psivasai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
+                title="About.me"
+              >
+                <User size={24} />
+              </a>
+              <a
+                href="https://linktr.ee/psivasai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
+                title="Linktree"
+              >
+                <Link size={24} />
               </a>
             </div>
           </div>
@@ -194,6 +212,28 @@ const Footer = () => {
                   className="text-gray-400 hover:text-white transition-colors duration-200"
                 >
                   Coursera
+                </a>
+              </div>
+              <div className="flex items-center gap-3">
+                <User size={18} className="text-orange-500" />
+                <a
+                  href="https://about.me/psivasai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                >
+                  About.me
+                </a>
+              </div>
+              <div className="flex items-center gap-3">
+                <Link size={18} className="text-orange-500" />
+                <a
+                  href="https://linktr.ee/psivasai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                >
+                  Linktree
                 </a>
               </div>
             </div>
