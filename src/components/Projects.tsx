@@ -64,6 +64,14 @@ const Projects = () => {
       icon: "🏦"
     },
     {
+      title: "SIVA Trade AI",
+      description: "An AI-powered trading assistant built to help Telugu-speaking users make informed stock market decisions. Simply enter a share name and time frame, and the assistant predicts potential profits with clear entry levels, target prices, stop-loss recommendations, confidence scores, supporting reasons, and risk warnings.",
+      technologies: ["TypeScript", "React", "AI", "Lovable Cloud", "Tailwind CSS", "Trading Analysis"],
+      demo: "https://siva-trade-ai.lovable.app/",
+      color: "from-emerald-600 to-green-500",
+      icon: "📈"
+    },
+    {
       title: "S-Secret Chat",
       description: "A private and secure chat application designed exclusively for couples who want complete privacy in their conversations. Each user sets their own password to protect their inbox—anyone wanting to message them must enter the correct password before the message box opens. Chat one-on-one with your loved one without any doubts or worries. Features end-to-end encryption ensuring only you and your partner can read messages, with password-protected access and a clean, intimate interface built for trust and love.",
       technologies: ["TypeScript", "React", "End-to-End Encryption", "Lovable Cloud", "Tailwind CSS", "Real-time Messaging"],
