@@ -4,6 +4,23 @@ import { Briefcase, Calendar, MapPin } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
+      company: "Various Companies · Freelance",
+      role: "Freelance Software & Web Developer",
+      period: "February 2019 - Present · 7 yrs 7 mos",
+      location: "Remote / India",
+      description: "Delivering websites, web applications, and data-driven solutions for freelance and client-based projects, spanning frontend development, databases, cybersecurity, accessibility, and analytics.",
+      responsibilities: [
+        "Developed and maintained websites and web applications for freelance and client-based projects",
+        "Worked on frontend development, database integration, SQL, and application functionality based on project requirements",
+        "Created data-driven dashboards using SQL and BI tools to analyze marketing and quarterly sales performance and support business decision-making",
+        "Worked on personal, academic, and freelance software development projects, gaining practical experience in web development, databases, and software engineering",
+        "Collaborated with clients and stakeholders to understand requirements, troubleshoot issues, and deliver practical technology solutions",
+        "Advised companies and public institutions on improving the accessibility and usability of their websites and applications, with a focus on making digital experiences more accessible to people with disabilities",
+        "Continuously explored new technologies and strengthened skills in software development, databases, cybersecurity, accessibility, and data analytics"
+      ],
+      color: "from-indigo-500 to-purple-600"
+    },
+    {
       company: "Government School",
       role: "Computer Science Teacher",
       period: "January 2026 - May 2026",
