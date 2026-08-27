@@ -21,6 +21,20 @@ const Experience = () => {
       color: "from-indigo-500 to-purple-600"
     },
     {
+      company: "Believers HR · Freelance",
+      role: "Sr. HR Recruiter",
+      period: "April 2026 - Present · 5 mos",
+      location: "Remote",
+      description: "Leading end-to-end recruitment as a Senior HR Recruiter, sourcing and placing skilled professionals while managing client relationships and hiring pipelines.",
+      responsibilities: [
+        "Manage end-to-end recruitment cycles from sourcing to offer rollout",
+        "Source and screen candidates across technical and non-technical roles",
+        "Coordinate interviews and maintain candidate pipelines with clients",
+        "Advise clients on hiring strategy, market trends, and salary benchmarks"
+      ],
+      color: "from-rose-500 to-purple-600"
+    },
+    {
       company: "Chegg India · Freelance",
       role: "Subject Matter Expert - Engineering",
       period: "August 2025 - Present · 1 yr 1 mo",
