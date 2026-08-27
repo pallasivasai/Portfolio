@@ -21,6 +21,19 @@ const Experience = () => {
       color: "from-indigo-500 to-purple-600"
     },
     {
+      company: "Chegg India · Freelance",
+      role: "Subject Matter Expert - Engineering",
+      period: "August 2025 - Present · 1 yr 1 mo",
+      location: "Remote",
+      description: "Providing expert engineering and computer science solutions to students as a freelance Subject Matter Expert, ensuring accurate, step-by-step explanations aligned with academic standards.",
+      responsibilities: [
+        "Authored detailed solutions for engineering and computer science questions",
+        "Ensured accuracy, clarity, and adherence to academic quality guidelines",
+        "Explained complex technical concepts in simple, step-by-step formats for students"
+      ],
+      color: "from-orange-500 to-amber-600"
+    },
+    {
       company: "Government School",
       role: "Computer Science Teacher",
       period: "January 2026 - May 2026",
