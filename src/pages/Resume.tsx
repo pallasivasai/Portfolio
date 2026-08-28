@@ -4,7 +4,7 @@ import { profile } from "@/data/profile";
 import { experiences } from "@/data/experience";
 import { educationData } from "@/data/education";
 import { skillCategories, expertise } from "@/data/skills";
-import { certifications } from "@/data/certifications";
+import { cybersecurityCerts, technicalCerts, googleCredentials } from "@/data/certifications";
 import { projects } from "@/data/projects";
 
 const Section = ({ title, children }: { title: string; children: React.ReactNode }) => (
@@ -150,7 +150,7 @@ const Resume = () => {
 
         <Section title="Certifications">
           <ul className="list-disc pl-5 space-y-0.5 text-muted-foreground">
-            {certifications.map((c) => (
+            {[...cybersecurityCerts, ...technicalCerts, ...googleCredentials].map((c) => (
               <li key={c.name + c.issuer}>
                 <span className="text-foreground font-medium">{c.name}</span> — {c.issuer}
               </li>
