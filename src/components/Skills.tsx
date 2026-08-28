@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { skillCategories, expertise } from '@/data/skills';
 
 const Skills = () => {
 

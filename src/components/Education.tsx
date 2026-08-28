@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { educationData } from '@/data/education';
 
 const Education = () => {
 

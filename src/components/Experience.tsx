@@ -1,5 +1,6 @@
 import React from 'react';
 import { Briefcase, Calendar, MapPin } from 'lucide-react';
+import { experiences } from '@/data/experience';
 
 const Experience = () => {
 

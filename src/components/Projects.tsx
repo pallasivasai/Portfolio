@@ -1,9 +1,7 @@
 
 import React from 'react';
 import { Github, Code } from 'lucide-react';
-import saiGptIcon from '@/assets/sai-gpt-icon.png';
-import saiEncryptionIcon from '@/assets/sai-encryption-icon.png';
-import sSecretChatIcon from '@/assets/s-secret-chat-icon.png';
+import { projects } from '@/data/projects';
 
 const Projects = () => {
 

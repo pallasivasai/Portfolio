@@ -1,5 +1,6 @@
 import React from 'react';
 import { ExternalLink, Award, Shield, Code, Brain, TrendingUp, Video, Megaphone, Lock, Database, Globe, Server, FileCode, Laptop } from 'lucide-react';
+import { cybersecurityCerts, technicalCerts, googleCredentials, type CertType } from '@/data/certifications';
 
 const Certifications = () => {
 
