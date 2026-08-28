@@ -32,12 +32,12 @@ const Navigation = () => {
           </div>
           
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden lg:flex space-x-4 xl:space-x-6">
             {navItems.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 hover:text-orange-500 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                className="whitespace-nowrap text-gray-700 hover:text-orange-500 px-1 py-2 text-sm font-medium transition-colors duration-200"
               >
                 {item.name}
               </a>
@@ -45,7 +45,7 @@ const Navigation = () => {
           </div>
           
           {/* Social Links & Download Resume Button */}
-          <div className="hidden md:flex items-center gap-3">
+          <div className="hidden lg:flex items-center gap-2">
             <a
               href="https://about.me/psivasai"
               target="_blank"
@@ -66,24 +66,24 @@ const Navigation = () => {
             </a>
             <RouterLink
               to="/resume"
-              className="flex items-center gap-2 border border-orange-500 text-orange-600 px-4 py-2 rounded-full text-sm font-medium hover:bg-orange-50 transition-all duration-200"
+              className="flex items-center gap-2 whitespace-nowrap border border-orange-500 text-orange-600 px-3 py-2 rounded-full text-sm font-medium hover:bg-orange-50 transition-all duration-200"
             >
               <FileText size={16} />
-              My Resume
+              Resume
             </RouterLink>
             <button
               onClick={handleDownloadResume}
-              className="flex items-center gap-2 bg-gradient-to-r from-orange-500 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:shadow-lg transition-all duration-200 transform hover:scale-105"
+              className="flex items-center gap-2 whitespace-nowrap bg-gradient-to-r from-orange-500 to-purple-600 text-white px-3 py-2 rounded-full text-sm font-medium hover:shadow-lg transition-all duration-200 transform hover:scale-105"
             >
               <Download size={16} />
-              Download CV
+              CV
             </button>
           </div>
           
           {/* Mobile menu button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden text-gray-700"
+            className="lg:hidden text-gray-700"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -91,7 +91,7 @@ const Navigation = () => {
         
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t">
+          <div className="lg:hidden py-4 border-t">
             {navItems.map((item) => (
               <a
                 key={item.name}
@@ -108,14 +108,14 @@ const Navigation = () => {
               className="mt-4 flex items-center gap-2 border border-orange-500 text-orange-600 px-4 py-2 rounded-full text-sm font-medium w-full justify-center"
             >
               <FileText size={16} />
-              My Resume
+              Resume
             </RouterLink>
             <button
               onClick={handleDownloadResume}
               className="mt-3 flex items-center gap-2 bg-gradient-to-r from-orange-500 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-medium w-full justify-center"
             >
               <Download size={16} />
-              Download CV
+              CV
             </button>
           </div>
         )}
