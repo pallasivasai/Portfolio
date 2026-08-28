@@ -143,4 +143,6 @@ export const googleCredentials: CertType[] = [
       color: "from-teal-500 to-green-600",
       verificationUrl: "https://learndigital.withgoogle.com/digitalgarage/validate-certificate-code",
       category: "Digital Skills"
+    }
 ];
+
