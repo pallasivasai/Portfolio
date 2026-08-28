@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
-import { Menu, X, Download, Link, User } from 'lucide-react';
+import { Menu, X, Download, Link, User, FileText } from 'lucide-react';
+import { Link as RouterLink } from 'react-router-dom';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -63,6 +64,13 @@ const Navigation = () => {
             >
               <Link size={20} />
             </a>
+            <RouterLink
+              to="/resume"
+              className="flex items-center gap-2 border border-orange-500 text-orange-600 px-4 py-2 rounded-full text-sm font-medium hover:bg-orange-50 transition-all duration-200"
+            >
+              <FileText size={16} />
+              My Resume
+            </RouterLink>
             <button
               onClick={handleDownloadResume}
               className="flex items-center gap-2 bg-gradient-to-r from-orange-500 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:shadow-lg transition-all duration-200 transform hover:scale-105"
@@ -94,9 +102,17 @@ const Navigation = () => {
                 {item.name}
               </a>
             ))}
+            <RouterLink
+              to="/resume"
+              onClick={() => setIsMenuOpen(false)}
+              className="mt-4 flex items-center gap-2 border border-orange-500 text-orange-600 px-4 py-2 rounded-full text-sm font-medium w-full justify-center"
+            >
+              <FileText size={16} />
+              My Resume
+            </RouterLink>
             <button
               onClick={handleDownloadResume}
-              className="mt-4 flex items-center gap-2 bg-gradient-to-r from-orange-500 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-medium w-full justify-center"
+              className="mt-3 flex items-center gap-2 bg-gradient-to-r from-orange-500 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-medium w-full justify-center"
             >
               <Download size={16} />
               Download CV
