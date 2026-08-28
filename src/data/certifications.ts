@@ -98,10 +98,12 @@ export const technicalCerts: CertType[] = [
       icon: Database,
       color: "from-indigo-500 to-purple-600",
       verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Backend Development"
+    }
 ];
 
 export const googleCredentials: CertType[] = [
-  const googleCredentials = [
+
     {
       name: "Google Ads Display Certification",
       issuer: "Google",
@@ -141,4 +143,6 @@ export const googleCredentials: CertType[] = [
       color: "from-teal-500 to-green-600",
       verificationUrl: "https://learndigital.withgoogle.com/digitalgarage/validate-certificate-code",
       category: "Digital Skills"
+    }
 ];
+
