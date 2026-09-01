@@ -7,9 +7,26 @@ import { skillCategories, expertise } from "@/data/skills";
 import { cybersecurityCerts, technicalCerts, googleCredentials } from "@/data/certifications";
 import { projects } from "@/data/projects";
 
+/**
+ * ATS-friendly resume:
+ * - Single column, no tables / columns / icons / images
+ * - Standard section headings (Work Experience, Education, Skills, ...)
+ * - Plain black text on white, standard Arial-family font
+ * - Real bullet lists, plain-text links
+ */
+
+const printStyles = `
+@page { size: A4; margin: 12mm; }
+@media print {
+  html, body { background: #fff !important; }
+  #resume-sheet { font-family: Arial, Helvetica, sans-serif; color: #000; }
+  #resume-sheet a { color: #000; text-decoration: none; }
+}
+`;
+
 const Section = ({ title, children }: { title: string; children: React.ReactNode }) => (
-  <section className="mb-6 break-inside-avoid">
-    <h2 className="text-sm font-bold uppercase tracking-widest text-primary border-b border-border pb-1 mb-3">
+  <section className="mb-4">
+    <h2 className="text-[12pt] font-bold uppercase tracking-wide border-b border-black pb-0.5 mb-2">
       {title}
     </h2>
     {children}
@@ -17,11 +34,13 @@ const Section = ({ title, children }: { title: string; children: React.ReactNode
 );
 
 const Resume = () => {
-  const handleDownload = () => window.print();
+  const allCerts = [...cybersecurityCerts, ...technicalCerts, ...googleCredentials];
 
   return (
     <div className="min-h-screen bg-muted/40 py-8 print:bg-white print:py-0">
-      <div className="max-w-3xl mx-auto px-4 mb-4 flex items-center justify-between print:hidden">
+      <style>{printStyles}</style>
+
+      <div className="max-w-[800px] mx-auto px-4 mb-4 flex flex-wrap items-center justify-between gap-3 print:hidden">
         <Link
           to="/"
           className="inline-flex items-center gap-2 text-sm font-medium text-foreground hover:text-primary"
@@ -29,54 +48,63 @@ const Resume = () => {
           <ArrowLeft className="w-4 h-4" /> Back to portfolio
         </Link>
         <button
-          onClick={handleDownload}
+          onClick={() => window.print()}
           className="inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground hover:opacity-90"
         >
           <Download className="w-4 h-4" /> Download Resume (PDF)
         </button>
       </div>
+      <p className="max-w-[800px] mx-auto px-4 mb-4 text-xs text-muted-foreground print:hidden">
+        ATS-friendly format: single column, standard headings, plain text links, no images or
+        tables — safe for resume parsing software.
+      </p>
 
       <article
         id="resume-sheet"
-        className="max-w-3xl mx-auto bg-background text-foreground shadow-lg print:shadow-none p-8 md:p-10 print:p-0 text-[13px] leading-relaxed"
+        className="max-w-[800px] mx-auto bg-white text-black shadow-lg print:shadow-none p-10 print:p-0 text-[10.5pt] leading-snug"
+        style={{ fontFamily: "Arial, Helvetica, sans-serif" }}
       >
-        <header className="mb-6 border-b border-border pb-4">
-          <h1 className="text-3xl font-bold tracking-tight">{profile.name}</h1>
-          <p className="text-primary font-medium mt-1">{profile.title}</p>
-          <p className="mt-2 text-muted-foreground">
-            {profile.email} · {profile.phone} · {profile.location}
+        <header className="mb-4">
+          <h1 className="text-[20pt] font-bold leading-tight">{profile.name}</h1>
+          <p className="font-semibold">{profile.title}</p>
+          <p>
+            {profile.email} | {profile.phone} | {profile.location}
           </p>
-          <p className="text-muted-foreground break-all">
-            {profile.links.map((l, i) => (
-              <span key={l.url}>
-                {i > 0 && " · "}
-                {l.label}: {l.url}
-              </span>
-            ))}
+          <p className="break-words">
+            {profile.links.map((l) => `${l.label}: ${l.url}`).join(" | ")}
           </p>
         </header>
 
-        <Section title="Profile">
-          <p className="text-muted-foreground">{profile.summary}</p>
+        <Section title="Professional Summary">
+          <p>{profile.summary}</p>
         </Section>
 
-        <Section title="Professional Experience">
-          <div className="space-y-4">
+        <Section title="Technical Skills">
+          <ul className="space-y-0.5">
+            {skillCategories.map((cat) => (
+              <li key={cat.title}>
+                <span className="font-bold">{cat.title}: </span>
+                {cat.skills.map((s) => s.name).join(", ")}
+              </li>
+            ))}
+            <li>
+              <span className="font-bold">Core Strengths: </span>
+              {expertise.map((e) => e.title).join(", ")}
+            </li>
+          </ul>
+        </Section>
+
+        <Section title="Work Experience">
+          <div className="space-y-3">
             {experiences.map((exp) => (
               <div key={exp.role + exp.company} className="break-inside-avoid">
-                <div className="flex flex-wrap items-baseline justify-between gap-x-3">
-                  <h3 className="font-semibold">{exp.role}</h3>
-                  <span className="text-muted-foreground text-xs">{exp.period}</span>
-                </div>
-                <p className="text-primary text-xs font-medium">
+                <p className="font-bold">{exp.role}</p>
+                <p>
                   {exp.company}
-                  {exp.location ? ` · ${exp.location}` : ""}
+                  {exp.location ? ` — ${exp.location}` : ""} | {exp.period}
                 </p>
-                {exp.description && (
-                  <p className="text-muted-foreground mt-1">{exp.description}</p>
-                )}
                 {exp.responsibilities?.length > 0 && (
-                  <ul className="list-disc pl-5 mt-1 space-y-0.5 text-muted-foreground">
+                  <ul className="list-disc pl-5 mt-0.5">
                     {exp.responsibilities.map((r) => (
                       <li key={r}>{r}</li>
                     ))}
@@ -88,60 +116,36 @@ const Resume = () => {
         </Section>
 
         <Section title="Education">
-          <div className="space-y-2">
+          <ul className="space-y-1">
             {educationData.map((edu) => (
-              <div key={edu.degree} className="flex flex-wrap justify-between gap-x-3">
-                <div>
-                  <h3 className="font-semibold">{edu.degree}</h3>
-                  <p className="text-muted-foreground text-xs">{edu.institution}</p>
-                </div>
-                <span className="text-muted-foreground text-xs">
-                  {edu.cgpa} · {edu.status}
-                </span>
-              </div>
+              <li key={edu.degree}>
+                <span className="font-bold">{edu.degree}</span> — {edu.institution} | {edu.cgpa} |{" "}
+                {edu.status}
+              </li>
             ))}
-          </div>
+          </ul>
         </Section>
 
-        <Section title="Technical Skills">
-          <div className="space-y-1">
-            {skillCategories.map((cat) => (
-              <p key={cat.title}>
-                <span className="font-semibold">{cat.title}: </span>
-                <span className="text-muted-foreground">
-                  {cat.skills.map((s) => s.name).join(", ")}
-                </span>
-              </p>
+        <Section title="Research and Publications">
+          <ul className="space-y-1">
+            {profile.research.map((r) => (
+              <li key={r.title}>
+                <span className="font-bold">{r.title}</span> — {r.note}. {r.url}
+              </li>
             ))}
-            <p>
-              <span className="font-semibold">Core Strengths: </span>
-              <span className="text-muted-foreground">
-                {expertise.map((e) => e.title).join(", ")}
-              </span>
-            </p>
-          </div>
-        </Section>
-
-        <Section title="Research">
-          {profile.research.map((r) => (
-            <div key={r.title} className="mb-2">
-              <h3 className="font-semibold">{r.title}</h3>
-              <p className="text-muted-foreground text-xs">
-                {r.note} — {r.url}
-              </p>
-            </div>
-          ))}
+          </ul>
         </Section>
 
         <Section title="Projects">
-          <div className="space-y-3">
+          <div className="space-y-2">
             {projects.map((p) => (
               <div key={p.title} className="break-inside-avoid">
-                <h3 className="font-semibold">{p.title}</h3>
-                <p className="text-muted-foreground">{p.description}</p>
-                <p className="text-xs text-muted-foreground mt-0.5">
-                  <span className="font-medium">Tech:</span> {p.technologies.join(", ")}
-                  {p.github ? ` · ${p.github}` : ""}
+                <p className="font-bold">{p.title}</p>
+                <p>{p.description}</p>
+                <p>
+                  <span className="font-bold">Technologies: </span>
+                  {p.technologies.join(", ")}
+                  {p.github ? ` | ${p.github}` : ""}
                 </p>
               </div>
             ))}
@@ -149,10 +153,10 @@ const Resume = () => {
         </Section>
 
         <Section title="Certifications">
-          <ul className="list-disc pl-5 space-y-0.5 text-muted-foreground">
-            {[...cybersecurityCerts, ...technicalCerts, ...googleCredentials].map((c) => (
+          <ul className="list-disc pl-5 space-y-0.5">
+            {allCerts.map((c) => (
               <li key={c.name + c.issuer}>
-                <span className="text-foreground font-medium">{c.name}</span> — {c.issuer}
+                {c.name} — {c.issuer}
               </li>
             ))}
           </ul>
