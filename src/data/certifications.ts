@@ -607,7 +607,38 @@ export const technicalCerts: CertType[] = [
 ];
 
 export const googleCredentials: CertType[] = [
-
+    {
+      name: "Foundations of Project Management",
+      issuer: "Google",
+      icon: Award,
+      color: "from-blue-500 to-green-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Project Management"
+    },
+    {
+      name: "Google Certified Educator Level 1",
+      issuer: "Google for Education",
+      icon: Award,
+      color: "from-red-500 to-yellow-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Education Technology"
+    },
+    {
+      name: "Google Cybersecurity Certificate",
+      issuer: "Google",
+      icon: Shield,
+      color: "from-blue-600 to-green-600",
+      verificationUrl: "https://www.coursera.org/account/accomplishments/professional-cert/WHB7Q4JLJCK5",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Google Cybersecurity Certificate : Badge",
+      issuer: "Google",
+      icon: Shield,
+      color: "from-green-500 to-blue-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
     {
       name: "Google Ads Display Certification",
       issuer: "Google",
@@ -625,11 +656,35 @@ export const googleCredentials: CertType[] = [
       category: "Digital Marketing"
     },
     {
-      name: "YouTube Music Certification",
+      name: "Shopping Ads Certification",
       issuer: "Google",
+      icon: Megaphone,
+      color: "from-blue-500 to-cyan-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Digital Marketing"
+    },
+    {
+      name: "Advanced Google Analytics",
+      issuer: "Google",
+      icon: TrendingUp,
+      color: "from-orange-500 to-red-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Analytics"
+    },
+    {
+      name: "Google Analytics Beginner's",
+      issuer: "Google",
+      icon: TrendingUp,
+      color: "from-yellow-500 to-orange-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Analytics"
+    },
+    {
+      name: "YouTube Music Certification",
+      issuer: "YouTube",
       icon: Video,
       color: "from-red-600 to-red-800",
-      verificationUrl: "https://www.skills.google/public_profiles/79b60659-bb15-42dd-852a-9ba427a0158c",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
       category: "Content"
     },
     {
@@ -646,6 +701,14 @@ export const googleCredentials: CertType[] = [
       icon: Award,
       color: "from-teal-500 to-green-600",
       verificationUrl: "https://learndigital.withgoogle.com/digitalgarage/validate-certificate-code",
+      category: "Digital Skills"
+    },
+    {
+      name: "Google Digital Unlocked",
+      issuer: "Google",
+      icon: Award,
+      color: "from-blue-500 to-purple-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
       category: "Digital Skills"
     }
 ];
