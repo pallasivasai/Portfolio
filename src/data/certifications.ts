@@ -603,6 +603,94 @@ export const technicalCerts: CertType[] = [
       color: "from-blue-500 to-purple-600",
       verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
       category: "Academic"
+    },
+    {
+      name: "Become a Project Manager",
+      issuer: "LinkedIn Learning",
+      icon: Award,
+      color: "from-blue-600 to-indigo-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Project Management"
+    },
+    {
+      name: "Project Management Foundations",
+      issuer: "LinkedIn Learning",
+      icon: Award,
+      color: "from-indigo-500 to-purple-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Project Management"
+    },
+    {
+      name: "Project Management Foundations: Requirements",
+      issuer: "LinkedIn Learning",
+      icon: Award,
+      color: "from-purple-500 to-pink-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Project Management"
+    },
+    {
+      name: "Project Management Foundations: Schedules",
+      issuer: "LinkedIn Learning",
+      icon: Award,
+      color: "from-pink-500 to-rose-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Project Management"
+    },
+    {
+      name: "Project Management Foundations: Budgets",
+      issuer: "LinkedIn Learning",
+      icon: Award,
+      color: "from-green-500 to-teal-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Project Management"
+    },
+    {
+      name: "Project Management Foundations: Teams",
+      issuer: "LinkedIn Learning",
+      icon: Award,
+      color: "from-teal-500 to-cyan-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Project Management"
+    },
+    {
+      name: "Project Management Foundations: Communication",
+      issuer: "LinkedIn Learning",
+      icon: Award,
+      color: "from-cyan-500 to-blue-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Project Management"
+    },
+    {
+      name: "Project Management Foundations: Risk",
+      issuer: "LinkedIn Learning",
+      icon: Award,
+      color: "from-orange-500 to-red-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Project Management"
+    },
+    {
+      name: "Managing Project Stakeholders",
+      issuer: "LinkedIn Learning",
+      icon: Award,
+      color: "from-red-500 to-purple-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Project Management"
+    },
+    {
+      name: "Microsoft Project 2019 and Project Online Desktop Essential Training",
+      issuer: "LinkedIn Learning",
+      icon: Laptop,
+      color: "from-blue-500 to-indigo-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Project Management"
+    },
+    {
+      name: "Microsoft Project Quick Tips",
+      issuer: "LinkedIn Learning",
+      icon: Laptop,
+      color: "from-indigo-500 to-blue-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Project Management"
     }
 ];
 
