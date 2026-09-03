@@ -1,8 +1,22 @@
-import React from 'react';
-import { ExternalLink, Award, Shield, Code, Brain, TrendingUp, Video, Megaphone, Lock, Database, Globe, Server, FileCode, Laptop } from 'lucide-react';
+import React, { useState } from 'react';
+import { ExternalLink, Award, Shield, Code, Brain, TrendingUp, Video, Megaphone, Lock, Database, Globe, Server, FileCode, Laptop, Cloud, ChevronDown, ChevronUp } from 'lucide-react';
 import { cybersecurityCerts, technicalCerts, googleCredentials, type CertType } from '@/data/certifications';
 
+const INITIAL_VISIBLE = 6;
+
 const Certifications = () => {
+  const [visibleCounts, setVisibleCounts] = useState({
+    cybersecurity: INITIAL_VISIBLE,
+    technical: INITIAL_VISIBLE,
+    google: INITIAL_VISIBLE,
+  });
+
+  const toggleShowMore = (key: 'cybersecurity' | 'technical' | 'google', total: number) => {
+    setVisibleCounts((prev) => ({
+      ...prev,
+      [key]: prev[key] === INITIAL_VISIBLE ? total : INITIAL_VISIBLE,
+    }));
+  };
 
   const CertificationCard = ({ cert }: { cert: CertType }) => {
     const IconComponent = cert.icon;
@@ -48,6 +62,56 @@ const Certifications = () => {
     );
   };
 
+  const CertSection = ({
+    title,
+    gradient,
+    certs,
+    keyName,
+  }: {
+    title: string;
+    gradient: string;
+    certs: CertType[];
+    keyName: 'cybersecurity' | 'technical' | 'google';
+  }) => {
+    const visible = visibleCounts[keyName];
+    const hasMore = certs.length > INITIAL_VISIBLE;
+
+    return (
+      <div className="mb-16">
+        <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">
+          <span className={`bg-gradient-to-r ${gradient} text-transparent bg-clip-text`}>
+            {title}
+          </span>
+        </h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          {certs.slice(0, visible).map((cert, index) => (
+            <CertificationCard key={index} cert={cert} />
+          ))}
+        </div>
+        {hasMore && (
+          <div className="text-center mt-8">
+            <button
+              onClick={() => toggleShowMore(keyName, certs.length)}
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold transition-all duration-300"
+            >
+              {visible === INITIAL_VISIBLE ? (
+                <>
+                  <span>Show All {certs.length} Certifications</span>
+                  <ChevronDown className="w-5 h-5" />
+                </>
+              ) : (
+                <>
+                  <span>Show Less</span>
+                  <ChevronUp className="w-5 h-5" />
+                </>
+              )}
+            </button>
+          </div>
+        )}
+      </div>
+    );
+  };
+
   return (
     <section id="certifications" className="py-20 bg-gradient-to-br from-gray-50 to-white">
       <div className="container mx-auto px-6">
@@ -61,47 +125,26 @@ const Certifications = () => {
           </p>
         </div>
 
-        {/* Cybersecurity Certifications - Top Priority */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">
-            <span className="bg-gradient-to-r from-red-600 to-orange-600 text-transparent bg-clip-text">
-              🔒 Cybersecurity Certifications
-            </span>
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {cybersecurityCerts.map((cert, index) => (
-              <CertificationCard key={index} cert={cert} />
-            ))}
-          </div>
-        </div>
+        <CertSection
+          title="🔒 Cybersecurity Certifications"
+          gradient="from-red-600 to-orange-600"
+          certs={cybersecurityCerts}
+          keyName="cybersecurity"
+        />
 
-        {/* Technical Certifications */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">
-            <span className="bg-gradient-to-r from-purple-600 to-blue-600 text-transparent bg-clip-text">
-              💻 Technical & Development Certifications
-            </span>
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {technicalCerts.map((cert, index) => (
-              <CertificationCard key={index} cert={cert} />
-            ))}
-          </div>
-        </div>
+        <CertSection
+          title="💻 Technical & Development Certifications"
+          gradient="from-purple-600 to-blue-600"
+          certs={technicalCerts}
+          keyName="technical"
+        />
 
-        {/* Google Credentials */}
-        <div>
-          <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">
-            <span className="bg-gradient-to-r from-blue-600 to-green-600 text-transparent bg-clip-text">
-              🏆 Google Certifications & Awards
-            </span>
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {googleCredentials.map((cert, index) => (
-              <CertificationCard key={index} cert={cert} />
-            ))}
-          </div>
-        </div>
+        <CertSection
+          title="🏆 Google Certifications & Awards"
+          gradient="from-blue-600 to-green-600"
+          certs={googleCredentials}
+          keyName="google"
+        />
 
         {/* View All Link */}
         <div className="text-center mt-12">
