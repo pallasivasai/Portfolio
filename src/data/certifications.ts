@@ -1,4 +1,4 @@
-import { ExternalLink, Award, Shield, Code, Brain, TrendingUp, Video, Megaphone, Lock, Database, Globe, Server, FileCode, Laptop } from 'lucide-react';
+import { ExternalLink, Award, Shield, Code, Brain, TrendingUp, Video, Megaphone, Lock, Database, Globe, Server, FileCode, Laptop, Cloud } from 'lucide-react';
 import type React from 'react';
 
 export interface CertType { name: string; issuer: string; icon: React.ComponentType<{ className?: string }>; color: string; verificationUrl: string; category: string; description?: string; }
