@@ -125,47 +125,26 @@ const Certifications = () => {
           </p>
         </div>
 
-        {/* Cybersecurity Certifications - Top Priority */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">
-            <span className="bg-gradient-to-r from-red-600 to-orange-600 text-transparent bg-clip-text">
-              🔒 Cybersecurity Certifications
-            </span>
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {cybersecurityCerts.map((cert, index) => (
-              <CertificationCard key={index} cert={cert} />
-            ))}
-          </div>
-        </div>
+        <CertSection
+          title="🔒 Cybersecurity Certifications"
+          gradient="from-red-600 to-orange-600"
+          certs={cybersecurityCerts}
+          keyName="cybersecurity"
+        />
 
-        {/* Technical Certifications */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">
-            <span className="bg-gradient-to-r from-purple-600 to-blue-600 text-transparent bg-clip-text">
-              💻 Technical & Development Certifications
-            </span>
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {technicalCerts.map((cert, index) => (
-              <CertificationCard key={index} cert={cert} />
-            ))}
-          </div>
-        </div>
+        <CertSection
+          title="💻 Technical & Development Certifications"
+          gradient="from-purple-600 to-blue-600"
+          certs={technicalCerts}
+          keyName="technical"
+        />
 
-        {/* Google Credentials */}
-        <div>
-          <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">
-            <span className="bg-gradient-to-r from-blue-600 to-green-600 text-transparent bg-clip-text">
-              🏆 Google Certifications & Awards
-            </span>
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {googleCredentials.map((cert, index) => (
-              <CertificationCard key={index} cert={cert} />
-            ))}
-          </div>
-        </div>
+        <CertSection
+          title="🏆 Google Certifications & Awards"
+          gradient="from-blue-600 to-green-600"
+          certs={googleCredentials}
+          keyName="google"
+        />
 
         {/* View All Link */}
         <div className="text-center mt-12">
