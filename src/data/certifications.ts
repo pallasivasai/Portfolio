@@ -5,10 +5,226 @@ export interface CertType { name: string; issuer: string; icon: React.ComponentT
 
 export const cybersecurityCerts: CertType[] = [
     {
+      name: "Ethical Hacking Essentials (EHE)",
+      issuer: "EC-Council",
+      icon: Lock,
+      color: "from-red-700 to-red-900",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "EC-Council Certified Security Analyst: Penetration Testing (ECSA)",
+      issuer: "EC-Council",
+      icon: Shield,
+      color: "from-red-600 to-orange-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Google Cybersecurity Certificate",
+      issuer: "Google / Coursera",
+      icon: Shield,
+      color: "from-blue-600 to-green-600",
+      verificationUrl: "https://www.coursera.org/account/accomplishments/professional-cert/WHB7Q4JLJCK5",
+      category: "Cybersecurity"
+    },
+    {
+      name: "IBM Cybersecurity Analyst Professional Certificate",
+      issuer: "IBM / Coursera",
+      icon: Shield,
+      color: "from-blue-700 to-cyan-700",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Cybersecurity Foundations",
+      issuer: "National Association of State Boards of Accountancy (NASBA)",
+      icon: Shield,
+      color: "from-slate-700 to-slate-900",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Cybersecurity Fundamentals",
+      issuer: "IBM",
+      icon: Lock,
+      color: "from-blue-600 to-indigo-700",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Cybersecurity IT Fundamentals Specialization",
+      issuer: "Credly by Pearson",
+      icon: Shield,
+      color: "from-purple-600 to-blue-700",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Network Security & Database Vulnerabilities",
+      issuer: "IBM",
+      icon: Database,
+      color: "from-indigo-600 to-purple-700",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Cybersecurity Compliance Framework & System Administration",
+      issuer: "IBM",
+      icon: Server,
+      color: "from-cyan-600 to-blue-700",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Cybersecurity Roles, Processes & Operating System Security",
+      issuer: "IBM",
+      icon: Shield,
+      color: "from-teal-600 to-blue-700",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Penetration Testing, Incident Response and Forensics",
+      issuer: "IBM",
+      icon: Lock,
+      color: "from-orange-600 to-red-700",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Cyber Threat Intelligence",
+      issuer: "IBM",
+      icon: Brain,
+      color: "from-blue-600 to-cyan-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "ICSI | CNSS Certified Network Security Specialist",
+      issuer: "DefensityOne",
+      icon: Shield,
+      color: "from-green-600 to-teal-700",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Most Advanced Level Ethical Hacking Using Kali Linux",
+      issuer: "Udemy",
+      icon: Lock,
+      color: "from-red-600 to-purple-700",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Complete Python Hacking Course: Beginner To Advanced!",
+      issuer: "Udemy",
+      icon: Lock,
+      color: "from-purple-700 to-red-700",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "White Hat Hacker And Pen Tester",
+      issuer: "EDUONIX",
+      icon: Shield,
+      color: "from-orange-600 to-red-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Penetration Testing",
+      issuer: "Udemy",
+      icon: Lock,
+      color: "from-red-500 to-orange-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Cyber security fundation",
+      issuer: "Certiprof",
+      icon: Shield,
+      color: "from-blue-500 to-cyan-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
       name: "Security Monitoring and Governance",
       issuer: "Coursera",
       icon: Shield,
       color: "from-red-600 to-red-800",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Office of the CISO Institute: Cybersecurity Essentials",
+      issuer: "Google",
+      icon: Shield,
+      color: "from-emerald-600 to-blue-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Put It to Work Prepare for Cybersecurity Jobs",
+      issuer: "Google",
+      icon: Shield,
+      color: "from-blue-500 to-green-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Automate Cybersecurity Tasks with Python",
+      issuer: "Google",
+      icon: Code,
+      color: "from-yellow-500 to-green-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Sound the Alarm: Detection and Response",
+      issuer: "Google",
+      icon: Shield,
+      color: "from-orange-500 to-red-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Assets, Threats, and Vulnerabilities",
+      issuer: "Google",
+      icon: Shield,
+      color: "from-red-500 to-orange-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Connect and Protect: Networks and Network Security",
+      issuer: "Google",
+      icon: Globe,
+      color: "from-blue-500 to-cyan-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Tools of the Trade: Linux and SQL",
+      issuer: "Google",
+      icon: Database,
+      color: "from-cyan-500 to-blue-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Play It Safe: Manage Security Risks",
+      issuer: "Google",
+      icon: Shield,
+      color: "from-green-500 to-teal-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Foundations of Cybersecurity",
+      issuer: "Google",
+      icon: Shield,
+      color: "from-blue-600 to-indigo-600",
       verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
       category: "Cybersecurity"
     },
@@ -43,6 +259,30 @@ export const cybersecurityCerts: CertType[] = [
       issuer: "Prodigy InfoTech",
       icon: Lock,
       color: "from-green-600 to-teal-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Security Monitoring and Governance",
+      issuer: "Microsoft",
+      icon: Shield,
+      color: "from-blue-600 to-slate-700",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "CompTIA A+ (220-1001 and 220-1002) Cert Prep",
+      issuer: "LinkedIn Learning",
+      icon: Laptop,
+      color: "from-red-600 to-orange-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cybersecurity"
+    },
+    {
+      name: "Programming Foundations: Web Security",
+      issuer: "LinkedIn Learning",
+      icon: Code,
+      color: "from-blue-600 to-cyan-600",
       verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
       category: "Cybersecurity"
     }
