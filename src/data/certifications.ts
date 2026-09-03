@@ -290,6 +290,54 @@ export const cybersecurityCerts: CertType[] = [
 
 export const technicalCerts: CertType[] = [
     {
+      name: "Machine Learning",
+      issuer: "Stanford University",
+      icon: Brain,
+      color: "from-red-700 to-red-900",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "AI/ML"
+    },
+    {
+      name: "DeepLearning.AI TensorFlow Developer",
+      issuer: "DeepLearning.AI",
+      icon: Brain,
+      color: "from-orange-500 to-red-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "AI/ML"
+    },
+    {
+      name: "Sequences, Time Series and Prediction",
+      issuer: "DeepLearning.AI",
+      icon: TrendingUp,
+      color: "from-blue-500 to-purple-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "AI/ML"
+    },
+    {
+      name: "Natural Language Processing in TensorFlow",
+      issuer: "DeepLearning.AI",
+      icon: Brain,
+      color: "from-purple-500 to-pink-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "AI/ML"
+    },
+    {
+      name: "Convolutional Neural Networks in TensorFlow",
+      issuer: "DeepLearning.AI",
+      icon: Brain,
+      color: "from-indigo-500 to-purple-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "AI/ML"
+    },
+    {
+      name: "Introduction to TensorFlow for AI, ML, and Deep Learning",
+      issuer: "DeepLearning.AI",
+      icon: Brain,
+      color: "from-orange-500 to-yellow-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "AI/ML"
+    },
+    {
       name: "Complete Machine Learning",
       issuer: "Udemy",
       icon: Brain,
@@ -298,12 +346,108 @@ export const technicalCerts: CertType[] = [
       category: "AI/ML"
     },
     {
-      name: "HTML Fundamentals Certification",
-      issuer: "SoloLearn",
-      icon: Code,
-      color: "from-blue-500 to-cyan-600",
+      name: "Machine learning",
+      issuer: "Udemy",
+      icon: Brain,
+      color: "from-fuchsia-500 to-purple-600",
       verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
-      category: "Web Development"
+      category: "AI/ML"
+    },
+    {
+      name: "Artificial Intelligence",
+      issuer: "Udemy",
+      icon: Brain,
+      color: "from-blue-500 to-indigo-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "AI/ML"
+    },
+    {
+      name: "Data Science",
+      issuer: "Udemy",
+      icon: Database,
+      color: "from-blue-600 to-cyan-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Data Science"
+    },
+    {
+      name: "Data Analysis with R Programming",
+      issuer: "Google",
+      icon: TrendingUp,
+      color: "from-blue-500 to-green-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Data Analytics"
+    },
+    {
+      name: "Learning Data Analytics",
+      issuer: "LinkedIn Learning",
+      icon: TrendingUp,
+      color: "from-cyan-500 to-blue-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Data Analytics"
+    },
+    {
+      name: "Ai Fluency: Framework & Foundations",
+      issuer: "Anthropic",
+      icon: Brain,
+      color: "from-orange-400 to-red-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "AI/ML"
+    },
+    {
+      name: "AWS Cloud Architect",
+      issuer: "Udemy",
+      icon: Server,
+      color: "from-orange-500 to-yellow-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cloud Computing"
+    },
+    {
+      name: "AWS Educate Getting Started with Compute",
+      issuer: "Amazon Web Services (AWS)",
+      icon: Server,
+      color: "from-orange-500 to-red-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cloud Computing"
+    },
+    {
+      name: "Amazon Web Services",
+      issuer: "Brainbench",
+      icon: Cloud,
+      color: "from-yellow-500 to-orange-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cloud Computing"
+    },
+    {
+      name: "DevOps",
+      issuer: "Udemy",
+      icon: Server,
+      color: "from-blue-500 to-cyan-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cloud Computing"
+    },
+    {
+      name: "GoogleCloudReady Facilitator Program",
+      issuer: "Google",
+      icon: Cloud,
+      color: "from-blue-500 to-red-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Cloud Computing"
+    },
+    {
+      name: "Introduction to Enterprise Computing",
+      issuer: "IBM",
+      icon: Server,
+      color: "from-blue-600 to-indigo-700",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Enterprise Computing"
+    },
+    {
+      name: "Software Engineering and Agile software development",
+      issuer: "Infosys",
+      icon: Code,
+      color: "from-blue-500 to-purple-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Software Engineering"
     },
     {
       name: "JPMorgan Chase Software Engineering Virtual Experience",
@@ -339,6 +483,126 @@ export const technicalCerts: CertType[] = [
       color: "from-indigo-500 to-purple-600",
       verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
       category: "Backend Development"
+    },
+    {
+      name: "HTML Fundamentals Certification",
+      issuer: "SoloLearn",
+      icon: Code,
+      color: "from-blue-500 to-cyan-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Web Development"
+    },
+    {
+      name: "SQL fundamentals",
+      issuer: "SoloLearn",
+      icon: Database,
+      color: "from-cyan-500 to-blue-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Database"
+    },
+    {
+      name: "C++",
+      issuer: "Udemy",
+      icon: Code,
+      color: "from-blue-600 to-indigo-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Programming"
+    },
+    {
+      name: "Python Crash Course By Google",
+      issuer: "Coursera",
+      icon: Code,
+      color: "from-yellow-500 to-blue-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Programming"
+    },
+    {
+      name: "Javascript & JQuery for beginners",
+      issuer: "Udemy",
+      icon: Code,
+      color: "from-yellow-500 to-orange-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Web Development"
+    },
+    {
+      name: "Blockchain and Cryptocurrency",
+      issuer: "Udemy",
+      icon: Database,
+      color: "from-purple-600 to-pink-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Blockchain"
+    },
+    {
+      name: "Network Engineer",
+      issuer: "Udemy",
+      icon: Globe,
+      color: "from-blue-600 to-cyan-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Networking"
+    },
+    {
+      name: "Introduction to Microsoft Power Platform",
+      issuer: "Microsoft",
+      icon: Laptop,
+      color: "from-blue-500 to-indigo-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Low-Code / No-Code"
+    },
+    {
+      name: "Programming Foundations: Databases",
+      issuer: "LinkedIn Learning",
+      icon: Database,
+      color: "from-indigo-500 to-purple-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Database"
+    },
+    {
+      name: "Programming Foundations: Fundamentals",
+      issuer: "LinkedIn Learning",
+      icon: Code,
+      color: "from-blue-500 to-cyan-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Programming"
+    },
+    {
+      name: "Succeeding in Web Development: Full Stack and Front End",
+      issuer: "LinkedIn Learning",
+      icon: Globe,
+      color: "from-green-500 to-blue-500",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Web Development"
+    },
+    {
+      name: "IT Service Desk Careers and Certifications: First Steps",
+      issuer: "LinkedIn Learning",
+      icon: Laptop,
+      color: "from-slate-500 to-slate-700",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "IT Support"
+    },
+    {
+      name: "Remote Work Professional Certification - RWPC™",
+      issuer: "Certiprof",
+      icon: Award,
+      color: "from-teal-500 to-blue-600",
+      verificationUrl: "https://www.credly.com/badges/eb5826a1-7e54-4a3d-93a8-bf3a737a5619",
+      category: "Professional Skills"
+    },
+    {
+      name: "Tech Recruitment Certified Professional",
+      issuer: "SkillPanel",
+      icon: Megaphone,
+      color: "from-purple-500 to-pink-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Recruitment"
+    },
+    {
+      name: "Post Graduation Diploma In Computer applications",
+      issuer: "Srinivasa institute of computer education",
+      icon: Award,
+      color: "from-blue-500 to-purple-600",
+      verificationUrl: "https://www.linkedin.com/in/pallasivasai/details/certifications/",
+      category: "Academic"
     }
 ];
 
