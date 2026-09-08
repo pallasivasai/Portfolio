@@ -70,6 +70,14 @@ export const projects: ProjectItem[] = [
       icon: "📈"
     },
     {
+      title: "Sai CRUD Operations Lab",
+      description: "An interactive learning lab that teaches database CRUD operations in Telugu, so anyone can understand them easily. First you choose your own columns/fields, and the form plus table are generated automatically. Then when you press Insert, Fetch, Update or Delete, an animation shows exactly how your data travels from the browser to the database, along with the real SQL query running behind the scenes.",
+      technologies: ["TypeScript", "React", "SQL", "Database Education", "Telugu Learning", "Tailwind CSS", "Lovable Cloud"],
+      demo: "https://sai-crudop.lovable.app",
+      color: "from-violet-500 to-indigo-600",
+      icon: "🗄️"
+    },
+    {
       title: "S-Secret Chat",
       description: "A private and secure chat application designed exclusively for couples who want complete privacy in their conversations. Each user sets their own password to protect their inbox—anyone wanting to message them must enter the correct password before the message box opens. Chat one-on-one with your loved one without any doubts or worries. Features end-to-end encryption ensuring only you and your partner can read messages, with password-protected access and a clean, intimate interface built for trust and love.",
       technologies: ["TypeScript", "React", "End-to-End Encryption", "Lovable Cloud", "Tailwind CSS", "Real-time Messaging"],
