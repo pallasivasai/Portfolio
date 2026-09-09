@@ -65,6 +65,7 @@ export const projects: ProjectItem[] = [
       title: "SIVA Trade AI",
       description: "An AI-powered trading assistant built to help Telugu-speaking users make informed stock market decisions. Simply enter a share name and time frame, and the assistant predicts potential profits with clear entry levels, target prices, stop-loss recommendations, confidence scores, supporting reasons, and risk warnings.",
       technologies: ["TypeScript", "React", "AI", "Lovable Cloud", "Tailwind CSS", "Trading Analysis"],
+      github: "https://github.com/pallasivasai/siva-trade-ai",
       demo: "https://siva-trade-ai.lovable.app/",
       color: "from-emerald-600 to-green-500",
       icon: "📈"
@@ -73,6 +74,7 @@ export const projects: ProjectItem[] = [
       title: "Sai CRUD Operations Lab",
       description: "An interactive learning lab that teaches database CRUD operations in Telugu, so anyone can understand them easily. First you choose your own columns/fields, and the form plus table are generated automatically. Then when you press Insert, Fetch, Update or Delete, an animation shows exactly how your data travels from the browser to the database, along with the real SQL query running behind the scenes.",
       technologies: ["TypeScript", "React", "SQL", "Database Education", "Telugu Learning", "Tailwind CSS", "Lovable Cloud"],
+      github: "https://github.com/pallasivasai/sai-crudop",
       demo: "https://sai-crudop.lovable.app",
       color: "from-violet-500 to-indigo-600",
       icon: "🗄️"
