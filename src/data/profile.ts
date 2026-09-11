@@ -24,7 +24,7 @@ export const profile = {
     {
       title:
         "AI-Based Secure Forgot Password System with DDoS Attack Detection and Prevention",
-      note: "Personal research — published on ResearchGate, with Colab demo",
+      note: "Personal research — DOI: 10.13140/RG.2.2.11916.48006, with Colab demo",
       url: "https://www.researchgate.net/publication/414205110_AI-Based_Secure_Forgot_Password_System_with_DDoS_Attack_Detection_and_Prevention",
     },
   ],

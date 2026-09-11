@@ -193,7 +193,7 @@ const Research = () => {
                   2026
                 </Badge>
                 <Badge variant="outline" className="text-blue-400 border-blue-500/50">
-                  ResearchGate
+                  DOI: 10.13140/RG.2.2.11916.48006
                 </Badge>
               </div>
               <CardTitle className="text-2xl md:text-3xl text-white leading-tight">
