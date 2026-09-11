@@ -21,5 +21,11 @@ export const profile = {
       note: "Personal research — published on ResearchGate, ~99% detection accuracy",
       url: "https://www.researchgate.net/publication/398446113",
     },
+    {
+      title:
+        "AI-Based Secure Forgot Password System with DDoS Attack Detection and Prevention",
+      note: "Personal research — published on ResearchGate, with Colab demo",
+      url: "https://www.researchgate.net/publication/414205110_AI-Based_Secure_Forgot_Password_System_with_DDoS_Attack_Detection_and_Prevention",
+    },
   ],
 };
