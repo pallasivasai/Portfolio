@@ -190,7 +190,7 @@ const Research = () => {
                   Research Article
                 </Badge>
                 <Badge variant="outline" className="text-green-400 border-green-500/50">
-                  2026
+                  September 2026
                 </Badge>
                 <Badge variant="outline" className="text-blue-400 border-blue-500/50">
                   DOI: 10.13140/RG.2.2.11916.48006
