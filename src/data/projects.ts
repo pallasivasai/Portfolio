@@ -80,6 +80,15 @@ export const projects: ProjectItem[] = [
       icon: "🗄️"
     },
     {
+      title: "Marketing & Sales Dashboard",
+      description: "An interactive Streamlit dashboard for analyzing marketing campaigns and sales performance. Visualizes key metrics, trends, and insights to help businesses make data-driven decisions for marketing strategy and revenue growth.",
+      technologies: ["Python", "Streamlit", "Data Visualization", "Pandas", "Marketing Analytics"],
+      github: "https://github.com/pallasivasai/marketing-sales-dashboard-New/tree/main",
+      demo: "https://marketing-sales-dashboard-new.streamlit.app/",
+      color: "from-orange-500 to-pink-600",
+      icon: "📊"
+    },
+    {
       title: "S-Secret Chat",
       description: "A private and secure chat application designed exclusively for couples who want complete privacy in their conversations. Each user sets their own password to protect their inbox—anyone wanting to message them must enter the correct password before the message box opens. Chat one-on-one with your loved one without any doubts or worries. Features end-to-end encryption ensuring only you and your partner can read messages, with password-protected access and a clean, intimate interface built for trust and love.",
       technologies: ["TypeScript", "React", "End-to-End Encryption", "Lovable Cloud", "Tailwind CSS", "Real-time Messaging"],
