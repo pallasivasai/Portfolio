@@ -80,6 +80,15 @@ export const projects: ProjectItem[] = [
       icon: "🗄️"
     },
     {
+      title: "HR Workforce Employee Performance Management System",
+      description: "A Streamlit-based HR analytics and employee performance management system that helps organizations track, evaluate, and improve workforce productivity. Visualizes employee metrics, performance trends, and department insights through interactive dashboards and data-driven reports.",
+      technologies: ["Python", "Streamlit", "Data Visualization", "Pandas", "HR Analytics", "Performance Management"],
+      github: "https://github.com/pallasivasai/HR-Workforce-Employee-Performance-Management-System",
+      demo: "https://hr-workforce-employee-performance-management-system.streamlit.app/",
+      color: "from-rose-500 to-orange-500",
+      icon: "👥"
+    },
+    {
       title: "Marketing & Sales Dashboard",
       description: "An interactive Streamlit dashboard for analyzing marketing campaigns and sales performance. Visualizes key metrics, trends, and insights to help businesses make data-driven decisions for marketing strategy and revenue growth.",
       technologies: ["Python", "Streamlit", "Data Visualization", "Pandas", "Marketing Analytics"],
