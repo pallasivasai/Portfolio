@@ -39,7 +39,7 @@ const Research = () => {
                   <Landmark className="w-3 h-3 mr-1" />
                   Digital Banking & FinTech
                 </Badge>
-                <Badge variant="outline" className="text-purple-300 border-purple-500/50">
+                <Badge variant="outline" className="text-blue-400 border-blue-500/50">
                   DOI: 10.13140/RG.2.2.20508.24960
                 </Badge>
               </div>
