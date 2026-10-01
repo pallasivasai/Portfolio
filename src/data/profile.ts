@@ -18,7 +18,7 @@ export const profile = {
     {
       title:
         "A 24-Hour Time-Bound Wrong Payment Recovery Framework for Secure Digital Banking Transactions (P. Siva Sai, Independent Researcher)",
-      note: "Personal research — proposed architecture for transaction reversal, negative-balance recovery, and financial scam exposure reduction",
+      note: "Personal research — DOI: 10.13140/RG.2.2.20508.24960, proposed architecture for transaction reversal, negative-balance recovery, and financial scam exposure reduction",
       url: "https://www.researchgate.net/publication/414356347_A_24-Hour_Time-Bound_Wrong_Payment_Recovery_Framework_for_Secure_Digital_Banking_Transactions_P_Siva_Sai_Independent_Researcher_A_Proposed_Architecture_for_Transaction_Reversal_Negative-Balance_Recovery_and_Financial_Scam_Exposure_Reduction",
     },
     {
