@@ -39,6 +39,9 @@ const Research = () => {
                   <Landmark className="w-3 h-3 mr-1" />
                   Digital Banking & FinTech
                 </Badge>
+                <Badge variant="outline" className="text-blue-400 border-blue-500/50">
+                  DOI: 10.13140/RG.2.2.20508.24960
+                </Badge>
               </div>
               <CardTitle className="text-2xl md:text-3xl text-white leading-tight">
                 A 24-Hour Time-Bound Wrong Payment Recovery Framework for Secure Digital Banking Transactions
