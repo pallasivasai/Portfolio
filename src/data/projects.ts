@@ -72,6 +72,7 @@ export const projects: ProjectItem[] = [
       title: "SAI Voice OS",
       description: "A voice-first accessibility assistant designed around a JARVIS-style hands-free interaction model for blind users. Say \"Shiva\" and SAI wakes up, answers questions aloud, and stays active for follow-up questions - covering Google Search, weather, time, date, and calculator - with local speech-to-text (faster-whisper), local Windows TTS, and optional custom wake-word model support, all running on-device without Chrome or Streamlit.",
       technologies: ["Python", "Speech-to-Text (faster-whisper)", "Text-to-Speech (pyttsx3)", "Wake Word Detection", "Accessibility"],
+      demo: "https://saivoiceosapp-a5.streamlit.app/",
       github: "https://github.com/pallasivasai/SAI_VoiceOS_APP",
       color: "from-indigo-500 to-fuchsia-500",
       icon: "🎙️"
