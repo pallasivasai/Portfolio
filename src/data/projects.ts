@@ -36,8 +36,8 @@ export const projects: ProjectItem[] = [
     },
     {
       title: "SAI-RAG – Retrieval-Augmented Knowledge & Question Answering Platform",
-      description: "A Retrieval-Augmented Generation (RAG) based application that answers questions accurately by retrieving relevant knowledge from documents and combining it with Large Language Models. Delivers context-aware, grounded answers instead of generic AI responses (Sep 2026 – Present).",
-      technologies: ["Large Language Models (LLM)", "Artificial Intelligence (AI)", "RAG", "Vector Search", "Embeddings"],
+      description: "An intelligent Retrieval-Augmented Generation (RAG) platform built on the SAI philosophy. Users upload their own documents, the system converts them into vector embeddings, and every question is answered by first retrieving the most relevant knowledge chunks and then grounding the LLM's response in that context - eliminating hallucinations and delivering accurate, source-backed answers instead of generic AI guesses. Ideal for document Q&A, knowledge bases, and enterprise search (Sep 2026 – Present).",
+      technologies: ["Large Language Models (LLM)", "Artificial Intelligence (AI)", "RAG", "Vector Search", "Embeddings", "Document Q&A"],
       color: "from-violet-500 to-cyan-500",
       icon: "🧠"
     },
