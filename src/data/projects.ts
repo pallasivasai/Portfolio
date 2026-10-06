@@ -61,6 +61,22 @@ export const projects: ProjectItem[] = [
       icon: "🔍"
     },
     {
+      title: "SAI Air Mouse (S-Mouse)",
+      description: "A computer-vision project that turns natural hand movement into Windows input. A webcam observes the hand, MediaPipe extracts hand landmarks, and Python translates those landmarks into mouse movement, click, drag, scroll, application-switching, and customizable gesture actions. Move your index finger to control the cursor, close two fingers to click, hold to drag, and use an open palm to switch apps - a practical step toward a natural, touch-free gesture-driven human-computer interface.",
+      technologies: ["Python", "Computer Vision", "MediaPipe", "OpenCV", "Gesture Recognition", "Human-Computer Interaction"],
+      github: "https://github.com/pallasivasai/S-Mouse",
+      color: "from-blue-500 to-emerald-500",
+      icon: "🖐️"
+    },
+    {
+      title: "SAI Voice OS",
+      description: "A voice-first accessibility assistant designed around a JARVIS-style hands-free interaction model for blind users. Say \"Shiva\" and SAI wakes up, answers questions aloud, and stays active for follow-up questions - covering Google Search, weather, time, date, and calculator - with local speech-to-text (faster-whisper), local Windows TTS, and optional custom wake-word model support, all running on-device without Chrome or Streamlit.",
+      technologies: ["Python", "Speech-to-Text (faster-whisper)", "Text-to-Speech (pyttsx3)", "Wake Word Detection", "Accessibility"],
+      github: "https://github.com/pallasivasai/SAI_VoiceOS_APP",
+      color: "from-indigo-500 to-fuchsia-500",
+      icon: "🎙️"
+    },
+    {
       title: "SAIBANK",
       description: "A revolutionary banking system featuring a unique 30-minute payment reversal mechanism using SQL triggers. If a wrong payment is made, it can be automatically reversed within 30 minutes through intelligent trigger-based transaction monitoring. This innovative concept demonstrates advanced database automation, time-based validation, and seamless rollback functionality for enhanced banking security.",
       technologies: ["SQL Triggers", "Database", "MySQL", "TypeScript", "React", "Tailwind CSS", "Lovable Cloud"],
