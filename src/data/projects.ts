@@ -35,6 +35,13 @@ export const projects: ProjectItem[] = [
       isImage: true
     },
     {
+      title: "SAI-RAG – Retrieval-Augmented Knowledge & Question Answering Platform",
+      description: "A Retrieval-Augmented Generation (RAG) based application that answers questions accurately by retrieving relevant knowledge from documents and combining it with Large Language Models. Delivers context-aware, grounded answers instead of generic AI responses (Sep 2026 – Present).",
+      technologies: ["Large Language Models (LLM)", "Artificial Intelligence (AI)", "RAG", "Vector Search", "Embeddings"],
+      color: "from-violet-500 to-cyan-500",
+      icon: "🧠"
+    },
+    {
       title: "SAI Game",
       description: "A fascinating math magic trick game that demonstrates algebraic principles. You choose a number, the program performs a series of arithmetic operations (doubling, adding an imaginary number, halving, and subtracting), and mathematically predicts the result will always be half your imaginary number - showcasing Python programming and mathematical thinking.",
       technologies: ["Python", "Game Development", "Jupyter Notebook"],
