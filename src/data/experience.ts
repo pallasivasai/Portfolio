@@ -33,12 +33,12 @@ export const experiences: ExperienceItem[] = [
       location: "Remote",
       description: "Contributing to Google Crowdsource, a Google platform that collects human feedback to help improve the quality and accuracy of Google products and machine-learning systems. Through consistent contributions, I provide human evaluation and feedback that supports services such as Google Maps, Google Translate, and other Google technologies. Google Crowdsource Profile: Level 23 | 86K+ Contributions.",
       responsibilities: [
-        "⭐ Reached Level 23 on Google Crowdsource",
-        "🚀 Completed 86,000+ contributions to date",
-        "🧠 Contributed human feedback for tasks involving sentiment evaluation, image verification, translation, and other data-quality activities",
-        "🎯 Focused on providing accurate and reliable human feedback to help improve AI and Google services",
-        "🌍 Contributing to a global community of users helping Google improve its products through real-world human input",
-        "💡 Participated in the Crowdsource community by sharing feedback, ideas, and suggestions for improving contributor engagement and the platform experience"
+        "Reached Level 23 on Google Crowdsource",
+        "Completed 86,000+ contributions to date",
+        "Contributed human feedback for tasks involving sentiment evaluation, image verification, translation, and other data-quality activities",
+        "Focused on providing accurate and reliable human feedback to help improve AI and Google services",
+        "Contributing to a global community of users helping Google improve its products through real-world human input",
+        "Participated in the Crowdsource community by sharing feedback, ideas, and suggestions for improving contributor engagement and the platform experience"
       ],
       color: "from-blue-500 to-green-500"
     },
